@@ -58,7 +58,8 @@ def scrape_contents(model, driver, section_key, article_url, xpaths_dict):
 
     for published_xpath in xpaths_dict["published_xpaths"]:
         try:
-            published = driver.find_element(by=By.XPATH, value=published_xpath).text
+            published = driver.find_elements(by=By.XPATH, value=published_xpath)
+            published = published[0].text
         except Exception as e:
             published = None
         if published != None:
