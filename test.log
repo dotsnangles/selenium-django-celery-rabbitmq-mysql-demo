@@ -574,3 +574,1946 @@
 [2023-07-12 18:30:00,200: INFO/MainProcess] Scaling up 1 processes.
 [2023-07-12 18:30:00,268: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[8487e4da-43ad-4537-acf7-5045da3b0919] received
 [2023-07-12 18:30:00,268: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:26:54,510: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[8e65ad86-3091-4e32-b5c3-761d761703ad] received
+[2023-07-12 19:26:54,549: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[6c246934-c0bb-461d-9c88-676ef0809ae9] received
+[2023-07-12 19:26:54,562: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[abbe260b-9460-4a95-8b27-41a9173c7f9a] received
+[2023-07-12 19:26:54,577: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[bb9fe60a-ba80-46fc-ad21-bcef6ccb6b03] received
+[2023-07-12 19:26:54,594: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[5e7d6c1c-8be0-4144-a6fc-b51b441e3135] received
+[2023-07-12 19:26:54,594: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:26:54,656: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[9e917ded-00fc-4fc9-a190-4859cd7f5a75] received
+[2023-07-12 19:26:54,656: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:26:54,717: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[9c2497e0-5fb4-4125-8911-b574b8fc08df] received
+[2023-07-12 19:26:54,717: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:26:54,791: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[ffd93f42-134a-46d0-b55b-fee5825e9292] received
+[2023-07-12 19:26:54,791: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:27:00,132: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[2b7fce70-a001-4a06-8a85-05407417cfc2] received
+[2023-07-12 19:27:00,168: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[fe5a8a69-ae50-4643-930e-4a6aa45a0eab] received
+[2023-07-12 19:27:00,222: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[800ec12b-07ac-4495-afe2-d58ad3bafd9d] received
+[2023-07-12 19:27:00,252: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[b6e5be81-26b1-4ce8-8408-52b01df84e18] received
+[2023-07-12 19:27:00,331: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[f827431e-8f94-4420-9885-e880599a9097] received
+[2023-07-12 19:27:00,370: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[23b2c910-ce99-4ab6-94cf-1cfd8418dc3f] received
+[2023-07-12 19:27:00,423: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[1fecf1bf-3831-49d8-9f97-4c8a82941aa1] received
+[2023-07-12 19:27:00,491: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[8ade0596-290d-4854-b41b-5cc399a07b25] received
+[2023-07-12 19:28:10,387: INFO/ForkPoolWorker-6]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 19:28:10,432: INFO/ForkPoolWorker-6] Task news_scraper.naver_news.section_200106.scrape[9e917ded-00fc-4fc9-a190-4859cd7f5a75] succeeded in 75.44268066099903s: 'finished.'
+[2023-07-12 19:28:41,948: INFO/ForkPoolWorker-1]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 19:28:42,077: INFO/ForkPoolWorker-1] Task news_scraper.naver_news.section_200102.scrape[abbe260b-9460-4a95-8b27-41a9173c7f9a] succeeded in 107.5110248120036s: 'finished.'
+[2023-07-12 19:28:43,500: INFO/ForkPoolWorker-7]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 19:28:43,639: INFO/ForkPoolWorker-7] Task news_scraper.naver_news.section_200107.scrape[9c2497e0-5fb4-4125-8911-b574b8fc08df] succeeded in 108.58554286899744s: 'finished.'
+[2023-07-12 19:29:00,342: INFO/ForkPoolWorker-3]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 19:29:00,434: INFO/ForkPoolWorker-3] Task news_scraper.naver_news.section_200101.scrape[6c246934-c0bb-461d-9c88-676ef0809ae9] succeeded in 125.88161955500254s: 'finished.'
+[2023-07-12 19:29:05,960: INFO/ForkPoolWorker-6]
+### number of article urls: 20
+### number of article urls found in db before scraping: 12
+### number of articles scraped: 8
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 4
+### number of new rows added to db: 4
+[2023-07-12 19:29:05,964: INFO/ForkPoolWorker-6] Task news_scraper.naver_news.section_200101.scrape[2b7fce70-a001-4a06-8a85-05407417cfc2] succeeded in 55.493747495995194s: 'finished.'
+[2023-07-12 19:29:10,117: INFO/ForkPoolWorker-8]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 19:29:10,209: INFO/ForkPoolWorker-8] Task news_scraper.naver_news.section_200104.scrape[ffd93f42-134a-46d0-b55b-fee5825e9292] succeeded in 135.0326828650068s: 'finished.'
+[2023-07-12 19:29:17,204: INFO/ForkPoolWorker-7]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 2
+### number of new rows added to db: 1
+[2023-07-12 19:29:17,214: INFO/ForkPoolWorker-7] Task news_scraper.naver_news.section_200104.scrape[800ec12b-07ac-4495-afe2-d58ad3bafd9d] succeeded in 33.47008714600088s: 'finished.'
+[2023-07-12 19:29:18,373: INFO/ForkPoolWorker-5]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 19:29:18,515: INFO/ForkPoolWorker-5] Task news_scraper.naver_news.section_200105.scrape[5e7d6c1c-8be0-4144-a6fc-b51b441e3135] succeeded in 143.54311961900385s: 'finished.'
+[2023-07-12 19:29:31,029: INFO/ForkPoolWorker-2]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 19:29:31,223: INFO/ForkPoolWorker-2] Task news_scraper.naver_news.section_200100.scrape[8e65ad86-3091-4e32-b5c3-761d761703ad] succeeded in 156.6977378149968s: 'finished.'
+[2023-07-12 19:29:32,849: INFO/MainProcess] Scaling down 1 processes.
+[2023-07-12 19:29:37,266: INFO/ForkPoolWorker-8]
+### number of article urls: 20
+### number of article urls found in db before scraping: 14
+### number of articles scraped: 6
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 6
+[2023-07-12 19:29:37,267: INFO/ForkPoolWorker-8] Task news_scraper.naver_news.section_200106.scrape[23b2c910-ce99-4ab6-94cf-1cfd8418dc3f] succeeded in 26.98259723999945s: 'finished.'
+[2023-07-12 19:29:41,364: INFO/ForkPoolWorker-1]
+### number of article urls: 20
+### number of article urls found in db before scraping: 9
+### number of articles scraped: 11
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 11
+[2023-07-12 19:29:41,366: INFO/ForkPoolWorker-1] Task news_scraper.naver_news.section_200102.scrape[fe5a8a69-ae50-4643-930e-4a6aa45a0eab] succeeded in 59.187560483995185s: 'finished.'
+[2023-07-12 19:29:47,337: INFO/ForkPoolWorker-7]
+### number of article urls: 20
+### number of article urls found in db before scraping: 13
+### number of articles scraped: 7
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 7
+[2023-07-12 19:29:47,338: INFO/ForkPoolWorker-7] Task news_scraper.naver_news.section_200105.scrape[1fecf1bf-3831-49d8-9f97-4c8a82941aa1] succeeded in 30.10826668899972s: 'finished.'
+[2023-07-12 19:29:53,864: INFO/ForkPoolWorker-4]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 19:29:53,930: INFO/ForkPoolWorker-4] Task news_scraper.naver_news.section_200103.scrape[bb9fe60a-ba80-46fc-ad21-bcef6ccb6b03] succeeded in 179.34877807600424s: 'finished.'
+[2023-07-12 19:30:00,234: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[b089b629-4ce1-4563-9c50-d990f7cefc04] received
+[2023-07-12 19:30:00,238: INFO/MainProcess] Scaling down 3 processes.
+[2023-07-12 19:30:00,241: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[39bd9355-d0c0-4286-b603-88dbf1b90c4c] received
+[2023-07-12 19:30:00,241: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:30:00,261: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[2b59738e-dc7d-4a13-b9d1-1d15f2009882] received
+[2023-07-12 19:30:00,262: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:30:01,582: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[bb31716f-f60f-44fb-9703-9dfcc0583386] received
+[2023-07-12 19:30:01,582: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:30:01,671: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[d1455d8c-bdb4-4ef7-9bfb-857df8b11a4a] received
+[2023-07-12 19:30:01,672: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:30:01,771: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[3483ea24-c86b-4fcd-a627-5997347e933a] received
+[2023-07-12 19:30:01,772: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[a9a7668e-a423-45f6-9871-7bd89bf5b847] received
+[2023-07-12 19:30:01,774: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[955f94c4-3a19-415f-901d-474d8a993e74] received
+[2023-07-12 19:30:06,287: INFO/ForkPoolWorker-5]
+### number of article urls: 20
+### number of article urls found in db before scraping: 14
+### number of articles scraped: 6
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 6
+[2023-07-12 19:30:06,289: INFO/ForkPoolWorker-5] Task news_scraper.naver_news.section_200100.scrape[8ade0596-290d-4854-b41b-5cc399a07b25] succeeded in 47.607598763999704s: 'finished.'
+[2023-07-12 19:30:10,431: INFO/ForkPoolWorker-8]
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 19:30:10,433: INFO/ForkPoolWorker-8] Task news_scraper.naver_news.section_200100.scrape[39bd9355-d0c0-4286-b603-88dbf1b90c4c] succeeded in 10.190236836999247s: 'finished.'
+[2023-07-12 19:30:12,200: INFO/ForkPoolWorker-9]
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 19:30:12,202: INFO/ForkPoolWorker-9] Task news_scraper.naver_news.section_200105.scrape[2b59738e-dc7d-4a13-b9d1-1d15f2009882] succeeded in 10.231195430002117s: 'finished.'
+[2023-07-12 19:30:13,330: INFO/ForkPoolWorker-10]
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 19:30:13,334: INFO/ForkPoolWorker-10] Task news_scraper.naver_news.section_200106.scrape[b089b629-4ce1-4563-9c50-d990f7cefc04] succeeded in 11.36715605000063s: 'finished.'
+[2023-07-12 19:30:15,333: INFO/ForkPoolWorker-11]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 19:30:15,335: INFO/ForkPoolWorker-11] Task news_scraper.naver_news.section_200104.scrape[bb31716f-f60f-44fb-9703-9dfcc0583386] succeeded in 13.296277775996714s: 'finished.'
+[2023-07-12 19:30:18,508: INFO/ForkPoolWorker-5]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 19:30:18,510: INFO/ForkPoolWorker-5] Task news_scraper.naver_news.section_200103.scrape[3483ea24-c86b-4fcd-a627-5997347e933a] succeeded in 12.212851751006383s: 'finished.'
+[2023-07-12 19:30:19,677: INFO/ForkPoolWorker-3]
+### number of article urls: 20
+### number of article urls found in db before scraping: 11
+### number of articles scraped: 9
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 9
+### number of new rows added to db: 0
+[2023-07-12 19:30:19,679: INFO/ForkPoolWorker-3] Task news_scraper.naver_news.section_200103.scrape[b6e5be81-26b1-4ce8-8408-52b01df84e18] succeeded in 79.15165738899668s: 'finished.'
+[2023-07-12 19:30:31,474: INFO/ForkPoolWorker-8]
+### number of article urls: 20
+### number of article urls found in db before scraping: 11
+### number of articles scraped: 9
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 9
+[2023-07-12 19:30:31,475: INFO/ForkPoolWorker-8] Task news_scraper.naver_news.section_200102.scrape[a9a7668e-a423-45f6-9871-7bd89bf5b847] succeeded in 21.040344587003347s: 'finished.'
+[2023-07-12 19:30:32,924: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 19:30:39,133: INFO/ForkPoolWorker-9]
+### number of article urls: 20
+### number of article urls found in db before scraping: 14
+### number of articles scraped: 6
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 6
+[2023-07-12 19:30:39,134: INFO/ForkPoolWorker-9] Task news_scraper.naver_news.section_200101.scrape[955f94c4-3a19-415f-901d-474d8a993e74] succeeded in 26.92862484700163s: 'finished.'
+[2023-07-12 19:31:20,904: INFO/ForkPoolWorker-6]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 19:31:20,905: INFO/ForkPoolWorker-6] Task news_scraper.naver_news.section_200107.scrape[f827431e-8f94-4420-9885-e880599a9097] succeeded in 134.92713078400266s: 'finished.'
+[2023-07-12 19:31:31,436: INFO/ForkPoolWorker-12]
+### number of article urls: 20
+### number of article urls found in db before scraping: 11
+### number of articles scraped: 9
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 8
+### number of new rows added to db: 1
+[2023-07-12 19:31:31,437: INFO/ForkPoolWorker-12] Task news_scraper.naver_news.section_200107.scrape[d1455d8c-bdb4-4ef7-9bfb-857df8b11a4a] succeeded in 89.2126982990012s: 'finished.'
+[2023-07-12 19:33:00,238: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[29ecc052-5740-42f1-8071-c9c8af344262] received
+[2023-07-12 19:33:00,254: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[3272b465-b1b4-474b-bd8b-ce1e0adcf870] received
+[2023-07-12 19:33:00,271: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[8d4e870d-fe97-47eb-9611-fa68152bd0fc] received
+[2023-07-12 19:33:00,291: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[ce162db7-ac3f-4b8c-b97e-4746a9324690] received
+[2023-07-12 19:33:00,310: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[60947325-b9ee-44dd-8c60-727128fcaa09] received
+[2023-07-12 19:33:00,310: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:33:00,378: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[4132263b-2318-4be5-8858-57f98cb155fd] received
+[2023-07-12 19:33:00,378: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:33:00,443: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[90e77881-82bb-4050-b43c-1d706fb3150d] received
+[2023-07-12 19:33:00,443: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:33:00,512: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[f8857fc4-2895-4938-9e00-28d5d2b69398] received
+[2023-07-12 19:33:00,512: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:33:23,297: INFO/ForkPoolWorker-14]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 19:33:23,299: INFO/ForkPoolWorker-14] Task news_scraper.naver_news.section_200101.scrape[4132263b-2318-4be5-8858-57f98cb155fd] succeeded in 22.589761736999208s: 'finished.'
+[2023-07-12 19:33:25,011: INFO/ForkPoolWorker-6]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 19:33:25,014: INFO/ForkPoolWorker-6] Task news_scraper.naver_news.section_200105.scrape[ce162db7-ac3f-4b8c-b97e-4746a9324690] succeeded in 24.73141916800523s: 'finished.'
+[2023-07-12 19:33:25,294: INFO/ForkPoolWorker-16]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 19:33:25,295: INFO/ForkPoolWorker-16] Task news_scraper.naver_news.section_200106.scrape[f8857fc4-2895-4938-9e00-28d5d2b69398] succeeded in 24.337861747000716s: 'finished.'
+[2023-07-12 19:33:25,371: INFO/ForkPoolWorker-13]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 19:33:25,373: INFO/ForkPoolWorker-13] Task news_scraper.naver_news.section_200103.scrape[60947325-b9ee-44dd-8c60-727128fcaa09] succeeded in 24.710910367997712s: 'finished.'
+[2023-07-12 19:33:31,440: INFO/ForkPoolWorker-12]
+### number of article urls: 20
+### number of article urls found in db before scraping: 13
+### number of articles scraped: 7
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 7
+[2023-07-12 19:33:31,441: INFO/ForkPoolWorker-12] Task news_scraper.naver_news.section_200104.scrape[29ecc052-5740-42f1-8071-c9c8af344262] succeeded in 31.212138876995596s: 'finished.'
+[2023-07-12 19:33:32,920: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 19:33:40,423: INFO/ForkPoolWorker-9]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 19:33:40,425: INFO/ForkPoolWorker-9] Task news_scraper.naver_news.section_200102.scrape[8d4e870d-fe97-47eb-9611-fa68152bd0fc] succeeded in 40.16255648000515s: 'finished.'
+[2023-07-12 19:33:48,302: INFO/ForkPoolWorker-15]
+### number of article urls: 20
+### number of article urls found in db before scraping: 10
+### number of articles scraped: 10
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 10
+[2023-07-12 19:33:48,303: INFO/ForkPoolWorker-15] Task news_scraper.naver_news.section_200100.scrape[90e77881-82bb-4050-b43c-1d706fb3150d] succeeded in 47.51992082799552s: 'finished.'
+[2023-07-12 19:33:59,163: INFO/ForkPoolWorker-11]
+### number of article urls: 20
+### number of article urls found in db before scraping: 1
+### number of articles scraped: 19
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 19
+[2023-07-12 19:33:59,163: INFO/ForkPoolWorker-11] Task news_scraper.naver_news.section_200107.scrape[3272b465-b1b4-474b-bd8b-ce1e0adcf870] succeeded in 58.90912114499952s: 'finished.'
+[2023-07-12 19:36:00,009: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[0c5127a0-8c33-4dcb-8c14-64c7d78af5d1] received
+[2023-07-12 19:36:00,025: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[5a17b5b6-092f-4cb2-a827-32744bcb8f63] received
+[2023-07-12 19:36:00,041: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[c6a4b1bb-cb74-4ff3-aeca-964c8c1568ea] received
+[2023-07-12 19:36:00,060: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[5bb817f4-ffa7-452c-96ea-5298987d8b5d] received
+[2023-07-12 19:36:00,078: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[f97f9a6e-e0b9-41a8-82d1-474dee8de846] received
+[2023-07-12 19:36:00,078: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:36:00,145: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[228fdbf8-b4f5-4df8-a14d-aba360ff6d79] received
+[2023-07-12 19:36:00,145: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:36:00,203: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[eeef440d-9fe7-403b-a026-773b916b63a6] received
+[2023-07-12 19:36:00,203: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:36:00,270: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[d774c484-148d-474c-a409-483e64b776de] received
+[2023-07-12 19:36:00,271: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:36:17,898: INFO/ForkPoolWorker-11]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 19:36:17,899: INFO/ForkPoolWorker-11] Task news_scraper.naver_news.section_200104.scrape[c6a4b1bb-cb74-4ff3-aeca-964c8c1568ea] succeeded in 17.856716721005796s: 'finished.'
+[2023-07-12 19:36:18,664: INFO/ForkPoolWorker-16]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 19:36:18,666: INFO/ForkPoolWorker-16] Task news_scraper.naver_news.section_200103.scrape[5a17b5b6-092f-4cb2-a827-32744bcb8f63] succeeded in 18.639346033000038s: 'finished.'
+[2023-07-12 19:36:19,411: INFO/ForkPoolWorker-18]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 19:36:19,413: INFO/ForkPoolWorker-18] Task news_scraper.naver_news.section_200105.scrape[228fdbf8-b4f5-4df8-a14d-aba360ff6d79] succeeded in 18.936178980999102s: 'finished.'
+[2023-07-12 19:36:20,779: INFO/ForkPoolWorker-9]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 19:36:20,782: INFO/ForkPoolWorker-9] Task news_scraper.naver_news.section_200100.scrape[5bb817f4-ffa7-452c-96ea-5298987d8b5d] succeeded in 20.720713786999113s: 'finished.'
+[2023-07-12 19:36:22,221: INFO/ForkPoolWorker-15]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 19:36:22,223: INFO/ForkPoolWorker-15] Task news_scraper.naver_news.section_200106.scrape[0c5127a0-8c33-4dcb-8c14-64c7d78af5d1] succeeded in 22.21320955199917s: 'finished.'
+[2023-07-12 19:36:32,938: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 19:36:33,754: INFO/ForkPoolWorker-17]
+### number of article urls: 20
+### number of article urls found in db before scraping: 16
+### number of articles scraped: 4
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 4
+[2023-07-12 19:36:33,756: INFO/ForkPoolWorker-17] Task news_scraper.naver_news.section_200101.scrape[f97f9a6e-e0b9-41a8-82d1-474dee8de846] succeeded in 33.32005562500126s: 'finished.'
+[2023-07-12 19:36:44,125: INFO/ForkPoolWorker-20]
+### number of article urls: 20
+### number of article urls found in db before scraping: 14
+### number of articles scraped: 6
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 6
+[2023-07-12 19:36:44,126: INFO/ForkPoolWorker-20] Task news_scraper.naver_news.section_200102.scrape[d774c484-148d-474c-a409-483e64b776de] succeeded in 43.47601148599642s: 'finished.'
+[2023-07-12 19:37:10,493: INFO/ForkPoolWorker-19]
+### number of article urls: 20
+### number of article urls found in db before scraping: 5
+### number of articles scraped: 15
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 15
+[2023-07-12 19:37:10,494: INFO/ForkPoolWorker-19] Task news_scraper.naver_news.section_200107.scrape[eeef440d-9fe7-403b-a026-773b916b63a6] succeeded in 69.95474266500241s: 'finished.'
+[2023-07-12 19:39:00,008: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[0b702c42-55be-4625-8275-2ef407dc36b0] received
+[2023-07-12 19:39:00,024: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[9bb9c282-5e6d-41c9-9955-67612eab6612] received
+[2023-07-12 19:39:00,038: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[200e6ab2-98e5-45ea-a30d-116ed2eff036] received
+[2023-07-12 19:39:00,054: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[18c9912d-ec1c-4804-8318-0732d1aefda4] received
+[2023-07-12 19:39:00,070: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[eb325dc0-5abb-4a1b-a6c5-e401d968adcb] received
+[2023-07-12 19:39:00,071: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:39:00,134: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[6f07e8c6-2bd0-433a-9f32-c52380cdead2] received
+[2023-07-12 19:39:00,134: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:39:00,196: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[05b18028-3930-4b16-aa51-94cde7953243] received
+[2023-07-12 19:39:00,196: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:39:00,270: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[14ee5c0d-4617-4d02-8029-24d0d7dee968] received
+[2023-07-12 19:39:00,271: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:39:20,964: INFO/ForkPoolWorker-23]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 19:39:20,966: INFO/ForkPoolWorker-23] Task news_scraper.naver_news.section_200105.scrape[05b18028-3930-4b16-aa51-94cde7953243] succeeded in 20.438602677000745s: 'finished.'
+[2023-07-12 19:39:23,699: INFO/ForkPoolWorker-24]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 19:39:23,701: INFO/ForkPoolWorker-24] Task news_scraper.naver_news.section_200104.scrape[14ee5c0d-4617-4d02-8029-24d0d7dee968] succeeded in 23.11604098600219s: 'finished.'
+[2023-07-12 19:39:23,874: INFO/ForkPoolWorker-22]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 19:39:23,877: INFO/ForkPoolWorker-22] Task news_scraper.naver_news.section_200103.scrape[6f07e8c6-2bd0-433a-9f32-c52380cdead2] succeeded in 23.406535865004116s: 'finished.'
+[2023-07-12 19:39:29,247: INFO/ForkPoolWorker-21]
+### number of article urls: 20
+### number of article urls found in db before scraping: 11
+### number of articles scraped: 9
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 9
+[2023-07-12 19:39:29,248: INFO/ForkPoolWorker-21] Task news_scraper.naver_news.section_200106.scrape[eb325dc0-5abb-4a1b-a6c5-e401d968adcb] succeeded in 28.810926140999072s: 'finished.'
+[2023-07-12 19:39:32,668: INFO/ForkPoolWorker-17]
+### number of article urls: 20
+### number of article urls found in db before scraping: 12
+### number of articles scraped: 8
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 8
+[2023-07-12 19:39:32,669: INFO/ForkPoolWorker-17] Task news_scraper.naver_news.section_200101.scrape[0b702c42-55be-4625-8275-2ef407dc36b0] succeeded in 32.6607742749984s: 'finished.'
+[2023-07-12 19:39:32,944: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 19:39:43,111: INFO/ForkPoolWorker-18]
+### number of article urls: 20
+### number of article urls found in db before scraping: 12
+### number of articles scraped: 8
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 8
+[2023-07-12 19:39:43,112: INFO/ForkPoolWorker-18] Task news_scraper.naver_news.section_200100.scrape[9bb9c282-5e6d-41c9-9955-67612eab6612] succeeded in 43.08769122800004s: 'finished.'
+[2023-07-12 19:39:57,609: INFO/ForkPoolWorker-19]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 19:39:57,611: INFO/ForkPoolWorker-19] Task news_scraper.naver_news.section_200107.scrape[200e6ab2-98e5-45ea-a30d-116ed2eff036] succeeded in 57.57065519200114s: 'finished.'
+[2023-07-12 19:40:39,367: INFO/ForkPoolWorker-20]
+### number of article urls: 20
+### number of article urls found in db before scraping: 13
+### number of articles scraped: 7
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 7
+[2023-07-12 19:40:39,368: INFO/ForkPoolWorker-20] Task news_scraper.naver_news.section_200102.scrape[18c9912d-ec1c-4804-8318-0732d1aefda4] succeeded in 99.3133616979976s: 'finished.'
+[2023-07-12 19:42:00,007: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[d826888a-e763-4a17-8734-58e84ce99135] received
+[2023-07-12 19:42:00,023: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[be4bd4aa-c46f-4f05-a6a5-ad46f025d8b9] received
+[2023-07-12 19:42:00,039: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[21438871-a914-4e12-8dc6-ac59cd13bfc1] received
+[2023-07-12 19:42:00,054: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[fd586265-a46a-4918-a8b0-b9237ad0c92d] received
+[2023-07-12 19:42:00,071: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[bf47ed21-8b92-48fc-877c-920c55e4b719] received
+[2023-07-12 19:42:00,073: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:42:00,137: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[72bdf67d-7ea5-45b3-9c0b-135faeb88096] received
+[2023-07-12 19:42:00,137: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:42:00,198: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[380c6da5-8482-4760-8e90-3aa3bceb1575] received
+[2023-07-12 19:42:00,198: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:42:00,256: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[006effb7-7b61-4a72-b445-5542dc7d465a] received
+[2023-07-12 19:42:00,257: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:42:12,718: INFO/ForkPoolWorker-24]
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 19:42:12,720: INFO/ForkPoolWorker-24] Task news_scraper.naver_news.section_200105.scrape[be4bd4aa-c46f-4f05-a6a5-ad46f025d8b9] succeeded in 12.695444476994453s: 'finished.'
+[2023-07-12 19:42:19,323: INFO/ForkPoolWorker-18]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 19:42:19,324: INFO/ForkPoolWorker-18] Task news_scraper.naver_news.section_200101.scrape[21438871-a914-4e12-8dc6-ac59cd13bfc1] succeeded in 19.283842897006252s: 'finished.'
+[2023-07-12 19:42:22,669: INFO/ForkPoolWorker-28]
+### number of article urls: 20
+### number of article urls found in db before scraping: 13
+### number of articles scraped: 7
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 7
+[2023-07-12 19:42:22,670: INFO/ForkPoolWorker-28] Task news_scraper.naver_news.section_200106.scrape[006effb7-7b61-4a72-b445-5542dc7d465a] succeeded in 22.04352649900102s: 'finished.'
+[2023-07-12 19:42:27,931: INFO/ForkPoolWorker-26]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 19:42:27,933: INFO/ForkPoolWorker-26] Task news_scraper.naver_news.section_200100.scrape[72bdf67d-7ea5-45b3-9c0b-135faeb88096] succeeded in 27.461531579996517s: 'finished.'
+[2023-07-12 19:42:28,608: INFO/ForkPoolWorker-25]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 19:42:28,610: INFO/ForkPoolWorker-25] Task news_scraper.naver_news.section_200103.scrape[bf47ed21-8b92-48fc-877c-920c55e4b719] succeeded in 28.168593674003205s: 'finished.'
+[2023-07-12 19:42:31,118: INFO/ForkPoolWorker-27]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 19:42:31,119: INFO/ForkPoolWorker-27] Task news_scraper.naver_news.section_200104.scrape[380c6da5-8482-4760-8e90-3aa3bceb1575] succeeded in 30.585793894002563s: 'finished.'
+[2023-07-12 19:42:32,953: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 19:42:43,553: INFO/ForkPoolWorker-20]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 19:42:43,554: INFO/ForkPoolWorker-20] Task news_scraper.naver_news.section_200107.scrape[d826888a-e763-4a17-8734-58e84ce99135] succeeded in 43.54545334100112s: 'finished.'
+[2023-07-12 19:42:46,516: INFO/ForkPoolWorker-19]
+### number of article urls: 20
+### number of article urls found in db before scraping: 12
+### number of articles scraped: 8
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 8
+[2023-07-12 19:42:46,517: INFO/ForkPoolWorker-19] Task news_scraper.naver_news.section_200102.scrape[fd586265-a46a-4918-a8b0-b9237ad0c92d] succeeded in 46.460661529999925s: 'finished.'
+[2023-07-12 19:45:00,006: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[00d6eb6e-9d6a-4275-9884-f25bc9906667] received
+[2023-07-12 19:45:00,022: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[6cc9c176-ba14-4068-9727-a8aba0e421db] received
+[2023-07-12 19:45:00,038: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[56765686-5c0d-4fd6-9a39-a53fa845061f] received
+[2023-07-12 19:45:00,053: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[6e5eacab-c5f5-4472-811b-f81d9c07d26b] received
+[2023-07-12 19:45:00,068: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[293f2de4-9b94-49de-9087-85d4921414b9] received
+[2023-07-12 19:45:00,068: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:45:00,132: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[0cabbf38-ff15-48ba-9ccb-78c98a4ee53e] received
+[2023-07-12 19:45:00,133: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:45:00,198: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[7d0406a9-cf1c-4c00-9b2d-454bcd392147] received
+[2023-07-12 19:45:00,198: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:45:00,267: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[936ebf11-0873-4db8-b647-c8a5d507301a] received
+[2023-07-12 19:45:00,267: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:45:19,415: INFO/ForkPoolWorker-32]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 19:45:19,416: INFO/ForkPoolWorker-32] Task news_scraper.naver_news.section_200104.scrape[936ebf11-0873-4db8-b647-c8a5d507301a] succeeded in 18.744132656000147s: 'finished.'
+[2023-07-12 19:45:20,102: INFO/ForkPoolWorker-19]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 19:45:20,104: INFO/ForkPoolWorker-19] Task news_scraper.naver_news.section_200105.scrape[6e5eacab-c5f5-4472-811b-f81d9c07d26b] succeeded in 20.04988654400222s: 'finished.'
+[2023-07-12 19:45:21,574: INFO/ForkPoolWorker-28]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 19:45:21,575: INFO/ForkPoolWorker-28] Task news_scraper.naver_news.section_200101.scrape[56765686-5c0d-4fd6-9a39-a53fa845061f] succeeded in 21.53594596300536s: 'finished.'
+[2023-07-12 19:45:22,476: INFO/ForkPoolWorker-20]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 19:45:22,477: INFO/ForkPoolWorker-20] Task news_scraper.naver_news.section_200106.scrape[6cc9c176-ba14-4068-9727-a8aba0e421db] succeeded in 22.45380919099989s: 'finished.'
+[2023-07-12 19:45:27,168: INFO/ForkPoolWorker-27]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 19:45:27,169: INFO/ForkPoolWorker-27] Task news_scraper.naver_news.section_200103.scrape[00d6eb6e-9d6a-4275-9884-f25bc9906667] succeeded in 27.161974530004954s: 'finished.'
+[2023-07-12 19:45:32,959: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 19:45:38,677: INFO/ForkPoolWorker-31]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 19:45:38,679: INFO/ForkPoolWorker-31] Task news_scraper.naver_news.section_200100.scrape[7d0406a9-cf1c-4c00-9b2d-454bcd392147] succeeded in 38.13573739799904s: 'finished.'
+[2023-07-12 19:45:46,327: INFO/ForkPoolWorker-29]
+### number of article urls: 20
+### number of article urls found in db before scraping: 3
+### number of articles scraped: 17
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 17
+[2023-07-12 19:45:46,328: INFO/ForkPoolWorker-29] Task news_scraper.naver_news.section_200107.scrape[293f2de4-9b94-49de-9087-85d4921414b9] succeeded in 45.89302386800409s: 'finished.'
+[2023-07-12 19:46:06,460: INFO/ForkPoolWorker-30]
+### number of article urls: 20
+### number of article urls found in db before scraping: 8
+### number of articles scraped: 12
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 12
+[2023-07-12 19:46:06,461: INFO/ForkPoolWorker-30] Task news_scraper.naver_news.section_200102.scrape[0cabbf38-ff15-48ba-9ccb-78c98a4ee53e] succeeded in 65.99700309200125s: 'finished.'
+[2023-07-12 19:48:00,007: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[f2abd40e-71ce-47fd-bd1e-d7f1201bfb63] received
+[2023-07-12 19:48:00,023: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[6e2e3ad5-d85c-42ba-8dc2-8bbd592cd610] received
+[2023-07-12 19:48:00,037: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[ba550c44-bb88-47ab-bb71-203577ad5991] received
+[2023-07-12 19:48:00,055: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[cec62e3a-1c5a-401d-a157-571dd6bef935] received
+[2023-07-12 19:48:00,072: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[6dbf16cb-526d-4082-bc99-af3b06140f41] received
+[2023-07-12 19:48:00,072: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:48:00,139: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[75f75cbc-d6b9-49b9-89f7-41589ca6f34c] received
+[2023-07-12 19:48:00,139: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:48:00,197: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[af82d6a4-1e06-4c8a-89dd-f0130dc3f3a7] received
+[2023-07-12 19:48:00,198: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:48:00,262: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[a44a0e45-2f0a-4118-a160-c5ad25419ed3] received
+[2023-07-12 19:48:00,263: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:48:13,546: INFO/ForkPoolWorker-31]
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 19:48:13,548: INFO/ForkPoolWorker-31] Task news_scraper.naver_news.section_200103.scrape[6e2e3ad5-d85c-42ba-8dc2-8bbd592cd610] succeeded in 13.523451604996808s: 'finished.'
+[2023-07-12 19:48:17,335: INFO/ForkPoolWorker-30]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 19:48:17,336: INFO/ForkPoolWorker-30] Task news_scraper.naver_news.section_200105.scrape[f2abd40e-71ce-47fd-bd1e-d7f1201bfb63] succeeded in 17.327526654000394s: 'finished.'
+[2023-07-12 19:48:22,600: INFO/ForkPoolWorker-35]
+### number of article urls: 20
+### number of article urls found in db before scraping: 14
+### number of articles scraped: 6
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 6
+[2023-07-12 19:48:22,601: INFO/ForkPoolWorker-35] Task news_scraper.naver_news.section_200106.scrape[af82d6a4-1e06-4c8a-89dd-f0130dc3f3a7] succeeded in 22.075533529001405s: 'finished.'
+[2023-07-12 19:48:23,856: INFO/ForkPoolWorker-33]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 19:48:23,857: INFO/ForkPoolWorker-33] Task news_scraper.naver_news.section_200101.scrape[6dbf16cb-526d-4082-bc99-af3b06140f41] succeeded in 23.448943923001934s: 'finished.'
+[2023-07-12 19:48:32,970: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 19:48:47,544: INFO/ForkPoolWorker-34]
+### number of article urls: 20
+### number of article urls found in db before scraping: 12
+### number of articles scraped: 8
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 8
+[2023-07-12 19:48:47,545: INFO/ForkPoolWorker-34] Task news_scraper.naver_news.section_200100.scrape[75f75cbc-d6b9-49b9-89f7-41589ca6f34c] succeeded in 47.082535155001096s: 'finished.'
+[2023-07-12 19:48:51,970: INFO/ForkPoolWorker-32]
+### number of article urls: 20
+### number of article urls found in db before scraping: 5
+### number of articles scraped: 15
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 15
+[2023-07-12 19:48:51,971: INFO/ForkPoolWorker-32] Task news_scraper.naver_news.section_200107.scrape[ba550c44-bb88-47ab-bb71-203577ad5991] succeeded in 51.93323858000076s: 'finished.'
+[2023-07-12 19:48:52,764: INFO/ForkPoolWorker-36]
+### number of article urls: 20
+### number of article urls found in db before scraping: 9
+### number of articles scraped: 11
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 11
+[2023-07-12 19:48:52,765: INFO/ForkPoolWorker-36] Task news_scraper.naver_news.section_200104.scrape[a44a0e45-2f0a-4118-a160-c5ad25419ed3] succeeded in 52.19170707699959s: 'finished.'
+[2023-07-12 19:49:06,706: INFO/ForkPoolWorker-29]
+### number of article urls: 20
+### number of article urls found in db before scraping: 6
+### number of articles scraped: 14
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 14
+[2023-07-12 19:49:06,707: INFO/ForkPoolWorker-29] Task news_scraper.naver_news.section_200102.scrape[cec62e3a-1c5a-401d-a157-571dd6bef935] succeeded in 66.65145620800467s: 'finished.'
+[2023-07-12 19:51:00,011: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[b51dc6fe-2e82-4a58-b3d4-a605a2ebbf53] received
+[2023-07-12 19:51:00,027: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[2417a3f4-3080-4a8e-86f7-b55cb9bcdbfb] received
+[2023-07-12 19:51:00,049: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[729d41be-5c82-4793-963b-a9fc4b72925b] received
+[2023-07-12 19:51:00,070: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[7dcee156-5062-40e3-9d99-9f755a7b9ed3] received
+[2023-07-12 19:51:00,089: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[44ce6c32-6b58-47da-8068-64efc9e3dff7] received
+[2023-07-12 19:51:00,089: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:51:00,161: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[1bf239e1-ca0e-43b0-a250-effb3cac4995] received
+[2023-07-12 19:51:00,162: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:51:00,228: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[925ee899-5f53-4cfd-9c8b-62058fc6ef0c] received
+[2023-07-12 19:51:00,228: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:51:00,304: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[31ca1c4d-a6e0-4a3c-b789-fed7ce2e1633] received
+[2023-07-12 19:51:00,305: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:51:18,741: INFO/ForkPoolWorker-32]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 19:51:18,743: INFO/ForkPoolWorker-32] Task news_scraper.naver_news.section_200105.scrape[2417a3f4-3080-4a8e-86f7-b55cb9bcdbfb] succeeded in 18.7141830210021s: 'finished.'
+[2023-07-12 19:51:20,922: INFO/ForkPoolWorker-39]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 19:51:20,924: INFO/ForkPoolWorker-39] Task news_scraper.naver_news.section_200106.scrape[925ee899-5f53-4cfd-9c8b-62058fc6ef0c] succeeded in 20.314534853001533s: 'finished.'
+[2023-07-12 19:51:32,978: INFO/MainProcess] Scaling down 2 processes.
+[2023-07-12 19:51:34,254: INFO/ForkPoolWorker-37]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 19:51:34,255: INFO/ForkPoolWorker-37] Task news_scraper.naver_news.section_200103.scrape[44ce6c32-6b58-47da-8068-64efc9e3dff7] succeeded in 33.76715656500164s: 'finished.'
+[2023-07-12 19:51:39,449: INFO/ForkPoolWorker-38]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 19:51:39,451: INFO/ForkPoolWorker-38] Task news_scraper.naver_news.section_200101.scrape[1bf239e1-ca0e-43b0-a250-effb3cac4995] succeeded in 38.93019337300211s: 'finished.'
+[2023-07-12 19:51:39,660: INFO/ForkPoolWorker-40]
+### number of article urls: 20
+### number of article urls found in db before scraping: 12
+### number of articles scraped: 8
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 8
+[2023-07-12 19:51:39,661: INFO/ForkPoolWorker-40] Task news_scraper.naver_news.section_200104.scrape[31ca1c4d-a6e0-4a3c-b789-fed7ce2e1633] succeeded in 38.87295738100511s: 'finished.'
+[2023-07-12 19:51:44,136: INFO/ForkPoolWorker-29]
+### number of article urls: 20
+### number of article urls found in db before scraping: 6
+### number of articles scraped: 14
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 14
+[2023-07-12 19:51:44,137: INFO/ForkPoolWorker-29] Task news_scraper.naver_news.section_200107.scrape[729d41be-5c82-4793-963b-a9fc4b72925b] succeeded in 44.08662354900298s: 'finished.'
+[2023-07-12 19:51:55,948: INFO/ForkPoolWorker-34]
+### number of article urls: 20
+### number of article urls found in db before scraping: 10
+### number of articles scraped: 10
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 10
+[2023-07-12 19:51:55,949: INFO/ForkPoolWorker-34] Task news_scraper.naver_news.section_200100.scrape[7dcee156-5062-40e3-9d99-9f755a7b9ed3] succeeded in 55.87603161200241s: 'finished.'
+[2023-07-12 19:52:02,979: INFO/MainProcess] Scaling down 2 processes.
+[2023-07-12 19:52:36,998: INFO/ForkPoolWorker-36]
+### number of article urls: 20
+### number of article urls found in db before scraping: 7
+### number of articles scraped: 13
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 13
+[2023-07-12 19:52:36,999: INFO/ForkPoolWorker-36] Task news_scraper.naver_news.section_200102.scrape[b51dc6fe-2e82-4a58-b3d4-a605a2ebbf53] succeeded in 96.98620433099859s: 'finished.'
+[2023-07-12 19:54:00,008: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[e43111d4-14b5-4e94-a782-1875a17e5ef6] received
+[2023-07-12 19:54:00,024: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[561775b8-7b68-4eb5-919d-aede4f6c8e27] received
+[2023-07-12 19:54:00,037: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[bc419ad7-f6bf-45ad-85a2-116e4afd2da3] received
+[2023-07-12 19:54:00,057: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[8a31888d-5038-4ef2-89e5-c4dc0436b6ff] received
+[2023-07-12 19:54:00,084: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[348a2416-1d26-426c-ac3d-c9569c6d6882] received
+[2023-07-12 19:54:00,085: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:54:00,146: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[89acb213-35f1-4ec4-b40a-213c15a4144a] received
+[2023-07-12 19:54:00,147: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:54:00,212: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[8423b835-2a51-41f6-9327-13d95280ee79] received
+[2023-07-12 19:54:00,212: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:54:00,277: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[9c921d0e-3186-48d8-9982-b3d7cc920c08] received
+[2023-07-12 19:54:00,277: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:54:31,047: INFO/ForkPoolWorker-40]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 19:54:31,048: INFO/ForkPoolWorker-40] Task news_scraper.naver_news.section_200105.scrape[561775b8-7b68-4eb5-919d-aede4f6c8e27] succeeded in 31.021155101996555s: 'finished.'
+[2023-07-12 19:54:32,114: INFO/ForkPoolWorker-36]
+### number of article urls: 20
+### number of article urls found in db before scraping: 10
+### number of articles scraped: 10
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 10
+[2023-07-12 19:54:32,116: INFO/ForkPoolWorker-36] Task news_scraper.naver_news.section_200106.scrape[8a31888d-5038-4ef2-89e5-c4dc0436b6ff] succeeded in 32.05644251299964s: 'finished.'
+[2023-07-12 19:54:32,990: INFO/MainProcess] Scaling down 2 processes.
+[2023-07-12 19:54:49,336: INFO/ForkPoolWorker-43]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 19:54:49,340: INFO/ForkPoolWorker-43] Task news_scraper.naver_news.section_200103.scrape[8423b835-2a51-41f6-9327-13d95280ee79] succeeded in 48.775632773002144s: 'finished.'
+[2023-07-12 19:54:51,642: INFO/ForkPoolWorker-41]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 19:54:51,643: INFO/ForkPoolWorker-41] Task news_scraper.naver_news.section_200101.scrape[348a2416-1d26-426c-ac3d-c9569c6d6882] succeeded in 51.18562375000329s: 'finished.'
+[2023-07-12 19:54:51,677: INFO/ForkPoolWorker-37]
+### number of article urls: 20
+### number of article urls found in db before scraping: 16
+### number of articles scraped: 4
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 4
+[2023-07-12 19:54:51,679: INFO/ForkPoolWorker-37] Task news_scraper.naver_news.section_200104.scrape[e43111d4-14b5-4e94-a782-1875a17e5ef6] succeeded in 51.67054290699889s: 'finished.'
+[2023-07-12 19:55:02,957: INFO/ForkPoolWorker-42]
+### number of article urls: 20
+### number of article urls found in db before scraping: 14
+### number of articles scraped: 6
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 6
+[2023-07-12 19:55:02,958: INFO/ForkPoolWorker-42] Task news_scraper.naver_news.section_200100.scrape[89acb213-35f1-4ec4-b40a-213c15a4144a] succeeded in 62.46426218099805s: 'finished.'
+[2023-07-12 19:55:02,989: INFO/MainProcess] Scaling down 2 processes.
+[2023-07-12 19:55:05,432: INFO/ForkPoolWorker-38]
+### number of article urls: 20
+### number of article urls found in db before scraping: 7
+### number of articles scraped: 13
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 13
+[2023-07-12 19:55:05,433: INFO/ForkPoolWorker-38] Task news_scraper.naver_news.section_200102.scrape[bc419ad7-f6bf-45ad-85a2-116e4afd2da3] succeeded in 65.39458993900189s: 'finished.'
+[2023-07-12 19:55:06,665: INFO/ForkPoolWorker-44]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 19:55:06,666: INFO/ForkPoolWorker-44] Task news_scraper.naver_news.section_200107.scrape[9c921d0e-3186-48d8-9982-b3d7cc920c08] succeeded in 65.96865247200185s: 'finished.'
+[2023-07-12 19:57:00,006: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[76bb0e8d-dd91-4368-9b5e-41f693fd756c] received
+[2023-07-12 19:57:00,019: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[21ddd31e-5e57-4b64-bbde-16557310a2b5] received
+[2023-07-12 19:57:00,034: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[f96de3ca-5dcf-482a-802c-0bac1bc8084c] received
+[2023-07-12 19:57:00,049: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[743161ee-6ccd-440b-a890-f15d08ff0f56] received
+[2023-07-12 19:57:00,063: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[1ecfdf47-7ccb-4bca-ad6a-0624f050ae4d] received
+[2023-07-12 19:57:00,064: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:57:00,122: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[47e6ccdb-6195-4f57-b94f-882639e2c64d] received
+[2023-07-12 19:57:00,123: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:57:00,181: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[d584c4e6-c52c-44d2-828b-ddccd64b4b77] received
+[2023-07-12 19:57:00,182: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:57:00,244: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[e1ebabaf-31d7-4971-9c90-215fa48abec7] received
+[2023-07-12 19:57:00,244: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 19:57:13,153: INFO/ForkPoolWorker-43]
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 19:57:13,165: INFO/ForkPoolWorker-43] Task news_scraper.naver_news.section_200105.scrape[743161ee-6ccd-440b-a890-f15d08ff0f56] succeeded in 13.114724610997655s: 'finished.'
+[2023-07-12 19:57:21,217: INFO/ForkPoolWorker-46]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 19:57:21,219: INFO/ForkPoolWorker-46] Task news_scraper.naver_news.section_200100.scrape[1ecfdf47-7ccb-4bca-ad6a-0624f050ae4d] succeeded in 20.75977325099666s: 'finished.'
+[2023-07-12 19:57:23,167: INFO/ForkPoolWorker-48]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 19:57:23,169: INFO/ForkPoolWorker-48] Task news_scraper.naver_news.section_200101.scrape[e1ebabaf-31d7-4971-9c90-215fa48abec7] succeeded in 22.565313354003592s: 'finished.'
+[2023-07-12 19:57:24,030: INFO/ForkPoolWorker-38]
+### number of article urls: 20
+### number of article urls found in db before scraping: 14
+### number of articles scraped: 6
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 6
+[2023-07-12 19:57:24,032: INFO/ForkPoolWorker-38] Task news_scraper.naver_news.section_200106.scrape[f96de3ca-5dcf-482a-802c-0bac1bc8084c] succeeded in 23.997255059002782s: 'finished.'
+[2023-07-12 19:57:24,298: INFO/ForkPoolWorker-45]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 19:57:24,299: INFO/ForkPoolWorker-45] Task news_scraper.naver_news.section_200104.scrape[47e6ccdb-6195-4f57-b94f-882639e2c64d] succeeded in 23.825333892003982s: 'finished.'
+[2023-07-12 19:57:30,561: INFO/ForkPoolWorker-47]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 19:57:30,563: INFO/ForkPoolWorker-47] Task news_scraper.naver_news.section_200103.scrape[d584c4e6-c52c-44d2-828b-ddccd64b4b77] succeeded in 30.048566646000836s: 'finished.'
+[2023-07-12 19:57:32,994: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 19:57:44,866: INFO/ForkPoolWorker-42]
+### number of article urls: 20
+### number of article urls found in db before scraping: 1
+### number of articles scraped: 19
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 19
+[2023-07-12 19:57:44,868: INFO/ForkPoolWorker-42] Task news_scraper.naver_news.section_200107.scrape[76bb0e8d-dd91-4368-9b5e-41f693fd756c] succeeded in 44.86090380100359s: 'finished.'
+[2023-07-12 19:58:09,020: INFO/ForkPoolWorker-44]
+### number of article urls: 20
+### number of article urls found in db before scraping: 11
+### number of articles scraped: 9
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 9
+[2023-07-12 19:58:09,021: INFO/ForkPoolWorker-44] Task news_scraper.naver_news.section_200102.scrape[21ddd31e-5e57-4b64-bbde-16557310a2b5] succeeded in 69.00169506800012s: 'finished.'
+[2023-07-12 20:00:00,006: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[edf93895-49a4-4f02-85e5-271bfdb48678] received
+[2023-07-12 20:00:00,019: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[9a3287c2-2da8-4e70-91ec-494077516fde] received
+[2023-07-12 20:00:00,032: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[f2058320-3e1d-4d0f-bbad-e04c43905d6b] received
+[2023-07-12 20:00:00,049: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[87178f56-c0ce-42f8-a900-8f08f38e8781] received
+[2023-07-12 20:00:00,065: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[9d1db26c-7d4c-4e35-94ac-335ffea0e1b2] received
+[2023-07-12 20:00:00,065: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:00:00,118: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[e95a9f4f-88b4-4bb5-8578-0fd4071b2675] received
+[2023-07-12 20:00:00,119: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:00:00,181: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[7748cf02-d759-4163-a284-a81772a6fb31] received
+[2023-07-12 20:00:00,181: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:00:00,245: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[4c4b5e6e-7725-4e28-90f8-d17904de853e] received
+[2023-07-12 20:00:00,245: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:00:15,714: INFO/ForkPoolWorker-48]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 20:00:15,715: INFO/ForkPoolWorker-48] Task news_scraper.naver_news.section_200106.scrape[9a3287c2-2da8-4e70-91ec-494077516fde] succeeded in 15.695484234005562s: 'finished.'
+[2023-07-12 20:00:18,370: INFO/ForkPoolWorker-47]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 20:00:18,371: INFO/ForkPoolWorker-47] Task news_scraper.naver_news.section_200105.scrape[87178f56-c0ce-42f8-a900-8f08f38e8781] succeeded in 18.321665259005385s: 'finished.'
+[2023-07-12 20:00:20,939: INFO/ForkPoolWorker-44]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 20:00:20,940: INFO/ForkPoolWorker-44] Task news_scraper.naver_news.section_200104.scrape[f2058320-3e1d-4d0f-bbad-e04c43905d6b] succeeded in 20.90677718599909s: 'finished.'
+[2023-07-12 20:00:28,973: INFO/ForkPoolWorker-49]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 20:00:28,975: INFO/ForkPoolWorker-49] Task news_scraper.naver_news.section_200103.scrape[9d1db26c-7d4c-4e35-94ac-335ffea0e1b2] succeeded in 28.60906087100011s: 'finished.'
+[2023-07-12 20:00:33,003: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 20:00:53,567: INFO/ForkPoolWorker-50]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 20:00:53,568: INFO/ForkPoolWorker-50] Task news_scraper.naver_news.section_200101.scrape[e95a9f4f-88b4-4bb5-8578-0fd4071b2675] succeeded in 53.14350744299736s: 'finished.'
+[2023-07-12 20:00:53,599: INFO/ForkPoolWorker-42]
+### number of article urls: 20
+### number of article urls found in db before scraping: 13
+### number of articles scraped: 7
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 7
+[2023-07-12 20:00:53,599: INFO/ForkPoolWorker-42] Task news_scraper.naver_news.section_200100.scrape[edf93895-49a4-4f02-85e5-271bfdb48678] succeeded in 53.592903958000534s: 'finished.'
+[2023-07-12 20:01:13,063: INFO/ForkPoolWorker-52]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 20:01:13,064: INFO/ForkPoolWorker-52] Task news_scraper.naver_news.section_200107.scrape[4c4b5e6e-7725-4e28-90f8-d17904de853e] succeeded in 72.49858486500307s: 'finished.'
+[2023-07-12 20:01:19,684: INFO/ForkPoolWorker-51]
+### number of article urls: 20
+### number of article urls found in db before scraping: 9
+### number of articles scraped: 11
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 11
+[2023-07-12 20:01:19,685: INFO/ForkPoolWorker-51] Task news_scraper.naver_news.section_200102.scrape[7748cf02-d759-4163-a284-a81772a6fb31] succeeded in 79.19640825399983s: 'finished.'
+[2023-07-12 20:03:00,013: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[159481dc-7d8d-466b-aa2c-c7143aedb44a] received
+[2023-07-12 20:03:00,033: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[42606c8f-4c7f-48d6-bf97-fa9a698c72fa] received
+[2023-07-12 20:03:00,055: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[190dbd4e-7547-435c-a27f-bbb5ff6e59b1] received
+[2023-07-12 20:03:00,073: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[c4d2bc15-0e96-43ae-8fd3-f107b3c5fee9] received
+[2023-07-12 20:03:00,096: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[9269bbbe-c49b-4164-9c89-3547dbf174a7] received
+[2023-07-12 20:03:00,096: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:03:00,182: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[40fe1aa0-b57e-404b-a72b-2a78576d1854] received
+[2023-07-12 20:03:00,183: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:03:00,256: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[7096da61-abc5-4847-a003-eda5387850ed] received
+[2023-07-12 20:03:00,257: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:03:00,324: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[3cd3a137-9eee-4804-8002-9f8c0b6a5c87] received
+[2023-07-12 20:03:00,325: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:03:24,081: INFO/ForkPoolWorker-56]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 20:03:24,082: INFO/ForkPoolWorker-56] Task news_scraper.naver_news.section_200105.scrape[3cd3a137-9eee-4804-8002-9f8c0b6a5c87] succeeded in 23.298926734001725s: 'finished.'
+[2023-07-12 20:03:25,672: INFO/ForkPoolWorker-51]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 20:03:25,674: INFO/ForkPoolWorker-51] Task news_scraper.naver_news.section_200106.scrape[190dbd4e-7547-435c-a27f-bbb5ff6e59b1] succeeded in 25.615679952999926s: 'finished.'
+[2023-07-12 20:03:29,001: INFO/ForkPoolWorker-52]
+### number of article urls: 20
+### number of article urls found in db before scraping: 16
+### number of articles scraped: 4
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 4
+[2023-07-12 20:03:29,003: INFO/ForkPoolWorker-52] Task news_scraper.naver_news.section_200103.scrape[c4d2bc15-0e96-43ae-8fd3-f107b3c5fee9] succeeded in 28.92663448899839s: 'finished.'
+[2023-07-12 20:03:29,175: INFO/ForkPoolWorker-50]
+### number of article urls: 20
+### number of article urls found in db before scraping: 16
+### number of articles scraped: 4
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 4
+[2023-07-12 20:03:29,177: INFO/ForkPoolWorker-50] Task news_scraper.naver_news.section_200104.scrape[42606c8f-4c7f-48d6-bf97-fa9a698c72fa] succeeded in 29.141622376002488s: 'finished.'
+[2023-07-12 20:03:33,013: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 20:03:53,877: INFO/ForkPoolWorker-54]
+### number of article urls: 20
+### number of article urls found in db before scraping: 6
+### number of articles scraped: 14
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 14
+[2023-07-12 20:03:53,878: INFO/ForkPoolWorker-54] Task news_scraper.naver_news.section_200101.scrape[40fe1aa0-b57e-404b-a72b-2a78576d1854] succeeded in 53.33220246899873s: 'finished.'
+[2023-07-12 20:03:56,755: INFO/ForkPoolWorker-53]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 20:03:56,757: INFO/ForkPoolWorker-53] Task news_scraper.naver_news.section_200107.scrape[9269bbbe-c49b-4164-9c89-3547dbf174a7] succeeded in 56.24941963799938s: 'finished.'
+[2023-07-12 20:03:57,285: INFO/ForkPoolWorker-42]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 20:03:57,286: INFO/ForkPoolWorker-42] Task news_scraper.naver_news.section_200100.scrape[159481dc-7d8d-466b-aa2c-c7143aedb44a] succeeded in 57.270602570002666s: 'finished.'
+[2023-07-12 20:04:14,904: INFO/ForkPoolWorker-55]
+### number of article urls: 20
+### number of article urls found in db before scraping: 3
+### number of articles scraped: 17
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 17
+[2023-07-12 20:04:14,904: INFO/ForkPoolWorker-55] Task news_scraper.naver_news.section_200102.scrape[7096da61-abc5-4847-a003-eda5387850ed] succeeded in 74.29693981500168s: 'finished.'
+[2023-07-12 20:06:00,006: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[af941e0a-2b17-4c36-814c-2cc8a5e9c9fc] received
+[2023-07-12 20:06:00,019: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[e26249f1-dd6f-44cf-8c35-f836941ef19f] received
+[2023-07-12 20:06:00,035: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[55e1498b-0da5-448e-9935-3e099e447117] received
+[2023-07-12 20:06:00,051: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[f833c35f-e38e-4de8-83a7-aef45f13c0c2] received
+[2023-07-12 20:06:00,070: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[03d10ea3-ac8f-4239-b6a9-956ecc851685] received
+[2023-07-12 20:06:00,070: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:06:00,130: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[6829ccac-0dc9-4570-bba4-7441bfe80fdc] received
+[2023-07-12 20:06:00,131: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:06:00,188: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[11a780e5-ab6c-4aca-ac4c-c070c595ad03] received
+[2023-07-12 20:06:00,188: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:06:00,248: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[3721c24a-1126-4d61-9da6-fcd3e72d009a] received
+[2023-07-12 20:06:00,248: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:06:15,558: INFO/ForkPoolWorker-58]
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 20:06:15,588: INFO/ForkPoolWorker-58] Task news_scraper.naver_news.section_200105.scrape[6829ccac-0dc9-4570-bba4-7441bfe80fdc] succeeded in 15.143700736000028s: 'finished.'
+[2023-07-12 20:06:23,471: INFO/ForkPoolWorker-55]
+### number of article urls: 20
+### number of article urls found in db before scraping: 16
+### number of articles scraped: 4
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 4
+[2023-07-12 20:06:23,473: INFO/ForkPoolWorker-55] Task news_scraper.naver_news.section_200106.scrape[e26249f1-dd6f-44cf-8c35-f836941ef19f] succeeded in 23.452622860997508s: 'finished.'
+[2023-07-12 20:06:25,115: INFO/ForkPoolWorker-59]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 20:06:25,116: INFO/ForkPoolWorker-59] Task news_scraper.naver_news.section_200104.scrape[11a780e5-ab6c-4aca-ac4c-c070c595ad03] succeeded in 24.615952084001037s: 'finished.'
+[2023-07-12 20:06:29,791: INFO/ForkPoolWorker-60]
+### number of article urls: 20
+### number of article urls found in db before scraping: 14
+### number of articles scraped: 6
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 6
+[2023-07-12 20:06:29,792: INFO/ForkPoolWorker-60] Task news_scraper.naver_news.section_200101.scrape[3721c24a-1126-4d61-9da6-fcd3e72d009a] succeeded in 29.180709727996145s: 'finished.'
+[2023-07-12 20:06:32,747: INFO/ForkPoolWorker-57]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 20:06:32,748: INFO/ForkPoolWorker-57] Task news_scraper.naver_news.section_200103.scrape[03d10ea3-ac8f-4239-b6a9-956ecc851685] succeeded in 32.36126943999989s: 'finished.'
+[2023-07-12 20:06:33,022: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 20:07:10,819: INFO/ForkPoolWorker-54]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 20:07:10,820: INFO/ForkPoolWorker-54] Task news_scraper.naver_news.section_200102.scrape[55e1498b-0da5-448e-9935-3e099e447117] succeeded in 70.78396611900098s: 'finished.'
+[2023-07-12 20:07:11,192: INFO/ForkPoolWorker-42]
+### number of article urls: 20
+### number of article urls found in db before scraping: 4
+### number of articles scraped: 16
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 16
+[2023-07-12 20:07:11,193: INFO/ForkPoolWorker-42] Task news_scraper.naver_news.section_200100.scrape[af941e0a-2b17-4c36-814c-2cc8a5e9c9fc] succeeded in 71.18618376799714s: 'finished.'
+[2023-07-12 20:07:27,814: INFO/ForkPoolWorker-53]
+### number of article urls: 20
+### number of article urls found in db before scraping: 3
+### number of articles scraped: 17
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 17
+[2023-07-12 20:07:27,815: INFO/ForkPoolWorker-53] Task news_scraper.naver_news.section_200107.scrape[f833c35f-e38e-4de8-83a7-aef45f13c0c2] succeeded in 87.76223323600425s: 'finished.'
+[2023-07-12 20:09:00,011: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[3e465f88-2581-45db-9cd9-fefd955573c4] received
+[2023-07-12 20:09:00,028: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[f56d009f-8252-4b8a-bddc-d6dd6fd629e3] received
+[2023-07-12 20:09:00,045: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[390d51b6-74d7-4f4a-ae97-eea601229aa4] received
+[2023-07-12 20:09:00,062: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[bfea6538-32a4-4578-aff9-aa466587fbcb] received
+[2023-07-12 20:09:00,081: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[fc142365-5b4c-4c7a-be3c-57d8836b0f0f] received
+[2023-07-12 20:09:00,081: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:09:00,153: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[2ae6cd80-f02c-4c8f-846d-48e9a1846986] received
+[2023-07-12 20:09:00,153: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:09:00,221: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[29c27c2a-9628-4047-8e21-b108b5c3e930] received
+[2023-07-12 20:09:00,221: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:09:00,285: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[01c925ba-a7e2-4933-b959-0b3986cd63b1] received
+[2023-07-12 20:09:00,286: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:09:30,200: INFO/ForkPoolWorker-63]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 20:09:30,202: INFO/ForkPoolWorker-63] Task news_scraper.naver_news.section_200105.scrape[29c27c2a-9628-4047-8e21-b108b5c3e930] succeeded in 29.593831250997027s: 'finished.'
+[2023-07-12 20:09:33,030: INFO/MainProcess] Scaling down 1 processes.
+[2023-07-12 20:09:34,655: INFO/ForkPoolWorker-42]
+### number of article urls: 20
+### number of article urls found in db before scraping: 14
+### number of articles scraped: 6
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 6
+[2023-07-12 20:09:34,656: INFO/ForkPoolWorker-42] Task news_scraper.naver_news.section_200106.scrape[3e465f88-2581-45db-9cd9-fefd955573c4] succeeded in 34.648676552002144s: 'finished.'
+[2023-07-12 20:09:37,962: INFO/ForkPoolWorker-53]
+### number of article urls: 20
+### number of article urls found in db before scraping: 16
+### number of articles scraped: 4
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 4
+[2023-07-12 20:09:37,964: INFO/ForkPoolWorker-53] Task news_scraper.naver_news.section_200101.scrape[bfea6538-32a4-4578-aff9-aa466587fbcb] succeeded in 37.90602375999879s: 'finished.'
+[2023-07-12 20:09:41,820: INFO/ForkPoolWorker-61]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 20:09:41,822: INFO/ForkPoolWorker-61] Task news_scraper.naver_news.section_200103.scrape[fc142365-5b4c-4c7a-be3c-57d8836b0f0f] succeeded in 41.32426378999662s: 'finished.'
+[2023-07-12 20:10:03,032: INFO/MainProcess] Scaling down 3 processes.
+[2023-07-12 20:10:12,081: INFO/ForkPoolWorker-62]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 20:10:12,082: INFO/ForkPoolWorker-62] Task news_scraper.naver_news.section_200104.scrape[2ae6cd80-f02c-4c8f-846d-48e9a1846986] succeeded in 71.54639347900229s: 'finished.'
+[2023-07-12 20:10:16,580: INFO/ForkPoolWorker-54]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 20:10:16,582: INFO/ForkPoolWorker-54] Task news_scraper.naver_news.section_200100.scrape[390d51b6-74d7-4f4a-ae97-eea601229aa4] succeeded in 76.54009032099566s: 'finished.'
+[2023-07-12 20:10:17,043: INFO/ForkPoolWorker-60]
+### number of article urls: 20
+### number of article urls found in db before scraping: 10
+### number of articles scraped: 10
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 10
+[2023-07-12 20:10:17,044: INFO/ForkPoolWorker-60] Task news_scraper.naver_news.section_200102.scrape[f56d009f-8252-4b8a-bddc-d6dd6fd629e3] succeeded in 77.021126560001s: 'finished.'
+[2023-07-12 20:10:21,484: INFO/ForkPoolWorker-64]
+### number of article urls: 20
+### number of article urls found in db before scraping: 2
+### number of articles scraped: 18
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 18
+[2023-07-12 20:10:21,485: INFO/ForkPoolWorker-64] Task news_scraper.naver_news.section_200107.scrape[01c925ba-a7e2-4933-b959-0b3986cd63b1] succeeded in 80.67476595899643s: 'finished.'
+[2023-07-12 20:12:00,006: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[e1fbf75d-cb63-43ac-bfcc-b7f507918c99] received
+[2023-07-12 20:12:00,022: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[c5478d9b-6f4e-402d-8488-f533f3943d76] received
+[2023-07-12 20:12:00,042: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[cf4cfc84-6ea0-47ec-8656-c2087d9d396f] received
+[2023-07-12 20:12:00,061: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[f2635a74-da96-44e5-a629-dd59e06c7c6e] received
+[2023-07-12 20:12:00,082: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[95eb066b-6cf3-4605-a597-14e13519aa88] received
+[2023-07-12 20:12:00,083: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:12:00,141: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[881e1779-77a9-4d0e-b9f1-db35f72623e3] received
+[2023-07-12 20:12:00,142: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:12:00,196: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[246e5b78-bf08-444e-a2e6-bdb0943c03f1] received
+[2023-07-12 20:12:00,196: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:12:00,261: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[7f3195b4-9923-4aa0-8b18-02897b4e3f47] received
+[2023-07-12 20:12:00,261: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:12:17,188: INFO/ForkPoolWorker-68]
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 20:12:17,191: INFO/ForkPoolWorker-68] Task news_scraper.naver_news.section_200105.scrape[7f3195b4-9923-4aa0-8b18-02897b4e3f47] succeeded in 16.62287955499778s: 'finished.'
+[2023-07-12 20:12:19,124: INFO/ForkPoolWorker-60]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 20:12:19,126: INFO/ForkPoolWorker-60] Task news_scraper.naver_news.section_200101.scrape[e1fbf75d-cb63-43ac-bfcc-b7f507918c99] succeeded in 19.118136664001213s: 'finished.'
+[2023-07-12 20:12:24,594: INFO/ForkPoolWorker-66]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 20:12:24,595: INFO/ForkPoolWorker-66] Task news_scraper.naver_news.section_200106.scrape[881e1779-77a9-4d0e-b9f1-db35f72623e3] succeeded in 24.140059099998325s: 'finished.'
+[2023-07-12 20:12:24,643: INFO/ForkPoolWorker-67]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 20:12:24,644: INFO/ForkPoolWorker-67] Task news_scraper.naver_news.section_200104.scrape[246e5b78-bf08-444e-a2e6-bdb0943c03f1] succeeded in 24.1266811050009s: 'finished.'
+[2023-07-12 20:12:24,887: INFO/ForkPoolWorker-54]
+### number of article urls: 20
+### number of article urls found in db before scraping: 16
+### number of articles scraped: 4
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 4
+[2023-07-12 20:12:24,888: INFO/ForkPoolWorker-54] Task news_scraper.naver_news.section_200100.scrape[cf4cfc84-6ea0-47ec-8656-c2087d9d396f] succeeded in 24.844349736995355s: 'finished.'
+[2023-07-12 20:12:33,040: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 20:12:42,340: INFO/ForkPoolWorker-65]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 20:12:42,341: INFO/ForkPoolWorker-65] Task news_scraper.naver_news.section_200103.scrape[95eb066b-6cf3-4605-a597-14e13519aa88] succeeded in 41.9281758740035s: 'finished.'
+[2023-07-12 20:13:15,583: INFO/ForkPoolWorker-64]
+### number of article urls: 20
+### number of article urls found in db before scraping: 7
+### number of articles scraped: 13
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 13
+[2023-07-12 20:13:15,583: INFO/ForkPoolWorker-64] Task news_scraper.naver_news.section_200102.scrape[c5478d9b-6f4e-402d-8488-f533f3943d76] succeeded in 75.55958229600219s: 'finished.'
+[2023-07-12 20:13:35,662: INFO/ForkPoolWorker-62]
+### number of article urls: 20
+### number of article urls found in db before scraping: 1
+### number of articles scraped: 19
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 19
+[2023-07-12 20:13:35,664: INFO/ForkPoolWorker-62] Task news_scraper.naver_news.section_200107.scrape[f2635a74-da96-44e5-a629-dd59e06c7c6e] succeeded in 95.60109841499798s: 'finished.'
+[2023-07-12 20:15:00,011: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[7c8dce25-27c1-40f9-9e40-c70cbdbcff00] received
+[2023-07-12 20:15:00,026: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[ecf23690-05b0-49a4-be76-9b729c47fb89] received
+[2023-07-12 20:15:00,042: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[ffd88f13-91d2-4afb-a085-852af8683f7b] received
+[2023-07-12 20:15:00,059: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[f95659e8-6f7d-4921-82b0-6b8e081c7bda] received
+[2023-07-12 20:15:00,077: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[fcfd72c1-d20f-4fb3-8cf9-fe2de758c580] received
+[2023-07-12 20:15:00,077: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:15:00,145: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[7a579d00-cc0b-4e98-85e4-feee8062dabe] received
+[2023-07-12 20:15:00,146: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:15:00,208: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[c8781819-82f3-47ea-ba8a-4944237c53ca] received
+[2023-07-12 20:15:00,208: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:15:00,270: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[95f21664-02d8-46c9-b573-970be7096cff] received
+[2023-07-12 20:15:00,271: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:15:18,407: INFO/ForkPoolWorker-64]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 20:15:18,409: INFO/ForkPoolWorker-64] Task news_scraper.naver_news.section_200106.scrape[ecf23690-05b0-49a4-be76-9b729c47fb89] succeeded in 18.380788901995402s: 'finished.'
+[2023-07-12 20:15:20,168: INFO/ForkPoolWorker-62]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 20:15:20,169: INFO/ForkPoolWorker-62] Task news_scraper.naver_news.section_200105.scrape[7c8dce25-27c1-40f9-9e40-c70cbdbcff00] succeeded in 20.158928350007045s: 'finished.'
+[2023-07-12 20:15:26,059: INFO/ForkPoolWorker-72]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 20:15:26,062: INFO/ForkPoolWorker-72] Task news_scraper.naver_news.section_200103.scrape[95f21664-02d8-46c9-b573-970be7096cff] succeeded in 25.34212110599765s: 'finished.'
+[2023-07-12 20:15:33,047: INFO/MainProcess] Scaling down 3 processes.
+[2023-07-12 20:15:40,782: INFO/ForkPoolWorker-68]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 20:15:40,783: INFO/ForkPoolWorker-68] Task news_scraper.naver_news.section_200104.scrape[f95659e8-6f7d-4921-82b0-6b8e081c7bda] succeeded in 40.72479029500391s: 'finished.'
+[2023-07-12 20:15:43,326: INFO/ForkPoolWorker-65]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 20:15:43,329: INFO/ForkPoolWorker-65] Task news_scraper.naver_news.section_200101.scrape[ffd88f13-91d2-4afb-a085-852af8683f7b] succeeded in 43.287240726000164s: 'finished.'
+[2023-07-12 20:16:02,866: INFO/ForkPoolWorker-70]
+### number of article urls: 20
+### number of article urls found in db before scraping: 12
+### number of articles scraped: 8
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 8
+[2023-07-12 20:16:02,867: INFO/ForkPoolWorker-70] Task news_scraper.naver_news.section_200102.scrape[7a579d00-cc0b-4e98-85e4-feee8062dabe] succeeded in 62.37430716900417s: 'finished.'
+[2023-07-12 20:16:03,050: INFO/MainProcess] Scaling down 1 processes.
+[2023-07-12 20:16:08,836: INFO/ForkPoolWorker-71]
+### number of article urls: 20
+### number of article urls found in db before scraping: 2
+### number of articles scraped: 18
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 18
+[2023-07-12 20:16:08,837: INFO/ForkPoolWorker-71] Task news_scraper.naver_news.section_200100.scrape[c8781819-82f3-47ea-ba8a-4944237c53ca] succeeded in 68.27962406099687s: 'finished.'
+[2023-07-12 20:16:11,902: INFO/ForkPoolWorker-69]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 20:16:11,904: INFO/ForkPoolWorker-69] Task news_scraper.naver_news.section_200107.scrape[fcfd72c1-d20f-4fb3-8cf9-fe2de758c580] succeeded in 71.44555880400003s: 'finished.'
+[2023-07-12 20:18:00,010: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[cad76086-95ff-409d-886b-752e9947b6a0] received
+[2023-07-12 20:18:00,032: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[a0c81f63-75dd-41db-9974-2637c12d7934] received
+[2023-07-12 20:18:00,053: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[024e72e0-06e3-47e8-9d69-50c6abbafbf7] received
+[2023-07-12 20:18:00,073: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[3f9b9380-ac6e-4f7f-ab76-b1409fab9d7d] received
+[2023-07-12 20:18:00,092: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[dfd701b4-21f0-450b-b1a0-5f335658115e] received
+[2023-07-12 20:18:00,092: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:18:00,160: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[48a9c436-f34b-4882-ba8a-0bddab5a319a] received
+[2023-07-12 20:18:00,161: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:18:00,229: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[963aad4a-88e0-4d0b-9046-b3ae99e2df97] received
+[2023-07-12 20:18:00,229: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:18:00,306: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[edb9b534-6a84-4654-ab65-9470f73799fb] received
+[2023-07-12 20:18:00,307: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:18:16,022: INFO/ForkPoolWorker-68]
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 20:18:16,023: INFO/ForkPoolWorker-68] Task news_scraper.naver_news.section_200105.scrape[3f9b9380-ac6e-4f7f-ab76-b1409fab9d7d] succeeded in 15.948878729999706s: 'finished.'
+[2023-07-12 20:18:29,229: INFO/ForkPoolWorker-73]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 20:18:29,237: INFO/ForkPoolWorker-73] Task news_scraper.naver_news.section_200106.scrape[dfd701b4-21f0-450b-b1a0-5f335658115e] succeeded in 28.69631897000363s: 'finished.'
+[2023-07-12 20:18:33,058: INFO/MainProcess] Scaling down 2 processes.
+[2023-07-12 20:18:34,526: INFO/ForkPoolWorker-71]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 20:18:34,529: INFO/ForkPoolWorker-71] Task news_scraper.naver_news.section_200103.scrape[024e72e0-06e3-47e8-9d69-50c6abbafbf7] succeeded in 34.473614636001s: 'finished.'
+[2023-07-12 20:18:48,450: INFO/ForkPoolWorker-70]
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 20:18:48,454: INFO/ForkPoolWorker-70] Task news_scraper.naver_news.section_200101.scrape[cad76086-95ff-409d-886b-752e9947b6a0] succeeded in 48.441528964998724s: 'finished.'
+[2023-07-12 20:18:49,048: INFO/ForkPoolWorker-76]
+### number of article urls: 20
+### number of article urls found in db before scraping: 11
+### number of articles scraped: 9
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 9
+[2023-07-12 20:18:49,051: INFO/ForkPoolWorker-76] Task news_scraper.naver_news.section_200104.scrape[edb9b534-6a84-4654-ab65-9470f73799fb] succeeded in 48.08839737199742s: 'finished.'
+[2023-07-12 20:18:59,595: INFO/ForkPoolWorker-75]
+### number of article urls: 20
+### number of article urls found in db before scraping: 4
+### number of articles scraped: 16
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 16
+[2023-07-12 20:18:59,596: INFO/ForkPoolWorker-75] Task news_scraper.naver_news.section_200107.scrape[963aad4a-88e0-4d0b-9046-b3ae99e2df97] succeeded in 58.868611979996786s: 'finished.'
+[2023-07-12 20:19:03,060: INFO/MainProcess] Scaling down 2 processes.
+[2023-07-12 20:19:03,277: INFO/ForkPoolWorker-69]
+### number of article urls: 20
+### number of article urls found in db before scraping: 2
+### number of articles scraped: 18
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 18
+[2023-07-12 20:19:03,278: INFO/ForkPoolWorker-69] Task news_scraper.naver_news.section_200100.scrape[a0c81f63-75dd-41db-9974-2637c12d7934] succeeded in 63.24536628399801s: 'finished.'
+[2023-07-12 20:19:15,678: INFO/ForkPoolWorker-74]
+### number of article urls: 20
+### number of article urls found in db before scraping: 10
+### number of articles scraped: 10
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 10
+[2023-07-12 20:19:15,679: INFO/ForkPoolWorker-74] Task news_scraper.naver_news.section_200102.scrape[48a9c436-f34b-4882-ba8a-0bddab5a319a] succeeded in 75.04445892899821s: 'finished.'
+[2023-07-12 20:21:00,010: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[075522be-a484-4418-b1be-4ddc0947654b] received
+[2023-07-12 20:21:00,027: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[ce208ba9-87ff-4d82-a2e9-93dafb2a206b] received
+[2023-07-12 20:21:00,044: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[9d5d1c5f-e1ad-4405-b788-42c048cd7f88] received
+[2023-07-12 20:21:00,062: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[1946c18a-6013-41a3-be55-1055de19b4db] received
+[2023-07-12 20:21:00,078: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[bf03501f-ebcf-4ff0-b995-d08115db33e8] received
+[2023-07-12 20:21:00,078: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:21:00,153: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[e16e14e4-483d-4464-a7cd-77459b46b9c5] received
+[2023-07-12 20:21:00,154: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:21:00,213: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[45429ed9-4e1c-4cb2-a64d-59eb0935c7ee] received
+[2023-07-12 20:21:00,213: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:21:00,281: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[3a0c2ea5-945d-4841-a8f9-de4d7633cfbb] received
+[2023-07-12 20:21:00,282: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:21:16,906: INFO/ForkPoolWorker-79]
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 20:21:16,909: INFO/ForkPoolWorker-79] Task news_scraper.naver_news.section_200105.scrape[45429ed9-4e1c-4cb2-a64d-59eb0935c7ee] succeeded in 16.333402322998154s: 'finished.'
+[2023-07-12 20:21:22,229: INFO/ForkPoolWorker-77]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 20:21:22,231: INFO/ForkPoolWorker-77] Task news_scraper.naver_news.section_200103.scrape[bf03501f-ebcf-4ff0-b995-d08115db33e8] succeeded in 21.75408852300461s: 'finished.'
+[2023-07-12 20:21:24,559: INFO/ForkPoolWorker-78]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 20:21:24,561: INFO/ForkPoolWorker-78] Task news_scraper.naver_news.section_200106.scrape[e16e14e4-483d-4464-a7cd-77459b46b9c5] succeeded in 24.055707608000375s: 'finished.'
+[2023-07-12 20:21:33,069: INFO/MainProcess] Scaling down 3 processes.
+[2023-07-12 20:21:33,988: INFO/ForkPoolWorker-76]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 20:21:33,990: INFO/ForkPoolWorker-76] Task news_scraper.naver_news.section_200101.scrape[1946c18a-6013-41a3-be55-1055de19b4db] succeeded in 33.92639127399889s: 'finished.'
+[2023-07-12 20:21:45,331: INFO/ForkPoolWorker-75]
+### number of article urls: 20
+### number of article urls found in db before scraping: 12
+### number of articles scraped: 8
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 8
+[2023-07-12 20:21:45,334: INFO/ForkPoolWorker-75] Task news_scraper.naver_news.section_200104.scrape[ce208ba9-87ff-4d82-a2e9-93dafb2a206b] succeeded in 45.304668829994625s: 'finished.'
+[2023-07-12 20:21:50,288: INFO/ForkPoolWorker-80]
+### number of article urls: 20
+### number of article urls found in db before scraping: 9
+### number of articles scraped: 11
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 11
+[2023-07-12 20:21:50,289: INFO/ForkPoolWorker-80] Task news_scraper.naver_news.section_200100.scrape[3a0c2ea5-945d-4841-a8f9-de4d7633cfbb] succeeded in 49.571337373999995s: 'finished.'
+[2023-07-12 20:21:58,469: INFO/ForkPoolWorker-69]
+### number of article urls: 20
+### number of article urls found in db before scraping: 6
+### number of articles scraped: 14
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 14
+[2023-07-12 20:21:58,470: INFO/ForkPoolWorker-69] Task news_scraper.naver_news.section_200107.scrape[075522be-a484-4418-b1be-4ddc0947654b] succeeded in 58.4583289680013s: 'finished.'
+[2023-07-12 20:22:03,071: INFO/MainProcess] Scaling down 1 processes.
+[2023-07-12 20:22:20,441: INFO/ForkPoolWorker-74]
+### number of article urls: 20
+### number of article urls found in db before scraping: 14
+### number of articles scraped: 6
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 6
+[2023-07-12 20:22:20,442: INFO/ForkPoolWorker-74] Task news_scraper.naver_news.section_200102.scrape[9d5d1c5f-e1ad-4405-b788-42c048cd7f88] succeeded in 80.3969628900013s: 'finished.'
+[2023-07-12 20:24:00,010: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[b0b49523-09c3-4500-b617-f772090bc0ee] received
+[2023-07-12 20:24:00,027: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[cb1441db-5177-43d0-a9b3-965b31c0ff0a] received
+[2023-07-12 20:24:00,040: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[7c5402c0-9163-4213-82a9-36aa7532b61b] received
+[2023-07-12 20:24:00,057: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[2e25a9b5-1a79-4c8a-89c8-f8bbfec9d43d] received
+[2023-07-12 20:24:00,075: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[13959f00-1dc4-46ee-8a67-8e5a92550d29] received
+[2023-07-12 20:24:00,075: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:24:00,147: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[1471eb04-b17b-4d83-b333-85bec5636416] received
+[2023-07-12 20:24:00,147: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:24:00,204: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[bb3375e4-50a2-4e1a-8187-3a28186274b4] received
+[2023-07-12 20:24:00,205: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:24:00,269: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[6a1f2494-09ae-4237-8fd7-0e832b8c036f] received
+[2023-07-12 20:24:00,269: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:24:25,383: INFO/ForkPoolWorker-83]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 20:24:25,387: INFO/ForkPoolWorker-83] Task news_scraper.naver_news.section_200105.scrape[bb3375e4-50a2-4e1a-8187-3a28186274b4] succeeded in 24.826329890995112s: 'finished.'
+[2023-07-12 20:24:31,101: INFO/ForkPoolWorker-74]
+### number of article urls: 20
+### number of article urls found in db before scraping: 14
+### number of articles scraped: 6
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 6
+[2023-07-12 20:24:31,103: INFO/ForkPoolWorker-74] Task news_scraper.naver_news.section_200106.scrape[2e25a9b5-1a79-4c8a-89c8-f8bbfec9d43d] succeeded in 31.04271813199739s: 'finished.'
+[2023-07-12 20:24:33,080: INFO/MainProcess] Scaling down 2 processes.
+[2023-07-12 20:24:48,165: INFO/ForkPoolWorker-81]
+### number of article urls: 20
+### number of article urls found in db before scraping: 12
+### number of articles scraped: 8
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 8
+[2023-07-12 20:24:48,167: INFO/ForkPoolWorker-81] Task news_scraper.naver_news.section_200104.scrape[13959f00-1dc4-46ee-8a67-8e5a92550d29] succeeded in 47.725419506001344s: 'finished.'
+[2023-07-12 20:24:53,830: INFO/ForkPoolWorker-80]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 20:24:53,832: INFO/ForkPoolWorker-80] Task news_scraper.naver_news.section_200103.scrape[7c5402c0-9163-4213-82a9-36aa7532b61b] succeeded in 53.78875481000432s: 'finished.'
+[2023-07-12 20:25:03,082: INFO/MainProcess] Scaling down 2 processes.
+[2023-07-12 20:25:16,000: INFO/ForkPoolWorker-75]
+### number of article urls: 20
+### number of article urls found in db before scraping: 13
+### number of articles scraped: 7
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 7
+[2023-07-12 20:25:16,001: INFO/ForkPoolWorker-75] Task news_scraper.naver_news.section_200101.scrape[cb1441db-5177-43d0-a9b3-965b31c0ff0a] succeeded in 75.9709880809969s: 'finished.'
+[2023-07-12 20:25:17,685: INFO/ForkPoolWorker-76]
+### number of article urls: 20
+### number of article urls found in db before scraping: 3
+### number of articles scraped: 17
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 17
+[2023-07-12 20:25:17,686: INFO/ForkPoolWorker-76] Task news_scraper.naver_news.section_200100.scrape[b0b49523-09c3-4500-b617-f772090bc0ee] succeeded in 77.67201806599769s: 'finished.'
+[2023-07-12 20:25:34,398: INFO/ForkPoolWorker-84]
+### number of article urls: 20
+### number of article urls found in db before scraping: 9
+### number of articles scraped: 11
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 11
+[2023-07-12 20:25:34,400: INFO/ForkPoolWorker-84] Task news_scraper.naver_news.section_200102.scrape[6a1f2494-09ae-4237-8fd7-0e832b8c036f] succeeded in 93.7070601230007s: 'finished.'
+[2023-07-12 20:26:08,415: INFO/ForkPoolWorker-82]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 20:26:08,416: INFO/ForkPoolWorker-82] Task news_scraper.naver_news.section_200107.scrape[1471eb04-b17b-4d83-b333-85bec5636416] succeeded in 127.92452705899632s: 'finished.'
+[2023-07-12 20:27:00,009: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[4d55872e-7ec5-4268-803d-b98ceb40fff9] received
+[2023-07-12 20:27:00,027: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[e200a3f3-f4f8-4af3-a7ea-45ce72c12069] received
+[2023-07-12 20:27:00,044: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[5f8aa24d-9079-4181-9416-f1723294e250] received
+[2023-07-12 20:27:00,061: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[854738a4-8ebf-4d5c-8f5c-05adf261efa6] received
+[2023-07-12 20:27:00,077: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[c95ed621-6213-4dbc-9253-dd8205899f61] received
+[2023-07-12 20:27:00,077: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:27:00,144: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[0dca9631-3016-41dd-a907-a4cbdb93b2c7] received
+[2023-07-12 20:27:00,145: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:27:00,208: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[d8ca3807-dc8b-410f-894a-00ea42357107] received
+[2023-07-12 20:27:00,209: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:27:00,279: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[cb72bc7a-cc46-44c6-a956-5f7440c8bc88] received
+[2023-07-12 20:27:00,279: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:27:14,956: INFO/ForkPoolWorker-85]
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 20:27:14,958: INFO/ForkPoolWorker-85] Task news_scraper.naver_news.section_200105.scrape[c95ed621-6213-4dbc-9253-dd8205899f61] succeeded in 14.488760551997984s: 'finished.'
+[2023-07-12 20:27:17,982: INFO/ForkPoolWorker-82]
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 20:27:17,986: INFO/ForkPoolWorker-82] Task news_scraper.naver_news.section_200101.scrape[4d55872e-7ec5-4268-803d-b98ceb40fff9] succeeded in 17.97535545699793s: 'finished.'
+[2023-07-12 20:27:21,009: INFO/ForkPoolWorker-86]
+### number of article urls: 20
+### number of article urls found in db before scraping: 16
+### number of articles scraped: 4
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 4
+[2023-07-12 20:27:21,011: INFO/ForkPoolWorker-86] Task news_scraper.naver_news.section_200106.scrape[0dca9631-3016-41dd-a907-a4cbdb93b2c7] succeeded in 20.506709613997373s: 'finished.'
+[2023-07-12 20:27:22,602: INFO/ForkPoolWorker-88]
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 20:27:22,604: INFO/ForkPoolWorker-88] Task news_scraper.naver_news.section_200104.scrape[cb72bc7a-cc46-44c6-a956-5f7440c8bc88] succeeded in 21.944268671002646s: 'finished.'
+[2023-07-12 20:27:30,049: INFO/ForkPoolWorker-84]
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 20:27:30,051: INFO/ForkPoolWorker-84] Task news_scraper.naver_news.section_200103.scrape[5f8aa24d-9079-4181-9416-f1723294e250] succeeded in 30.005604188998404s: 'finished.'
+[2023-07-12 20:27:33,089: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 20:27:39,897: INFO/ForkPoolWorker-75]
+### number of article urls: 20
+### number of article urls found in db before scraping: 16
+### number of articles scraped: 4
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 4
+[2023-07-12 20:27:39,899: INFO/ForkPoolWorker-75] Task news_scraper.naver_news.section_200102.scrape[e200a3f3-f4f8-4af3-a7ea-45ce72c12069] succeeded in 39.87031184800435s: 'finished.'
+[2023-07-12 20:27:55,187: INFO/ForkPoolWorker-87]
+### number of article urls: 20
+### number of article urls found in db before scraping: 12
+### number of articles scraped: 8
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 8
+[2023-07-12 20:27:55,189: INFO/ForkPoolWorker-87] Task news_scraper.naver_news.section_200100.scrape[d8ca3807-dc8b-410f-894a-00ea42357107] succeeded in 54.61614885200106s: 'finished.'
+[2023-07-12 20:27:56,238: INFO/ForkPoolWorker-76]
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 20:27:56,239: INFO/ForkPoolWorker-76] Task news_scraper.naver_news.section_200107.scrape[854738a4-8ebf-4d5c-8f5c-05adf261efa6] succeeded in 56.17669429200032s: 'finished.'
+[2023-07-12 20:37:26,267: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[fc18444b-dfa9-497e-a307-ed3267ed926e] received
+[2023-07-12 20:37:26,310: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[eddda9e1-5ccf-4acf-9b25-001c3d2dbb19] received
+[2023-07-12 20:37:26,323: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[71110c22-efda-4c3b-82aa-794e28f89fbe] received
+[2023-07-12 20:37:26,340: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[1f21a861-5b48-4d50-86b0-7761b6c6a85e] received
+[2023-07-12 20:37:26,356: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[33a986c9-82b6-43c8-a017-146b97f179e0] received
+[2023-07-12 20:37:26,357: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:37:26,425: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[818d3274-412e-42d2-bf2f-4de6fe9dca03] received
+[2023-07-12 20:37:26,425: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:37:26,489: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[5a4d1c43-af69-49fc-9dcc-7a2e430db2d0] received
+[2023-07-12 20:37:26,489: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:37:26,562: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[cd8b4d06-87aa-46a6-97a9-e0185468d7dc] received
+[2023-07-12 20:37:26,562: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:37:41,061: INFO/ForkPoolWorker-5]
+### section: 200105
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 20:37:41,062: INFO/ForkPoolWorker-5] Task news_scraper.naver_news.section_200105.scrape[33a986c9-82b6-43c8-a017-146b97f179e0] succeeded in 14.323980262997793s: 'finished.'
+[2023-07-12 20:38:13,382: INFO/ForkPoolWorker-6]
+### section: 200106
+### number of article urls: 20
+### number of article urls found in db before scraping: 7
+### number of articles scraped: 13
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 13
+[2023-07-12 20:38:13,385: INFO/ForkPoolWorker-6] Task news_scraper.naver_news.section_200106.scrape[818d3274-412e-42d2-bf2f-4de6fe9dca03] succeeded in 46.620056633000786s: 'finished.'
+[2023-07-12 20:38:14,744: INFO/ForkPoolWorker-4]
+### section: 200103
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 20:38:14,751: INFO/ForkPoolWorker-4] Task news_scraper.naver_news.section_200103.scrape[1f21a861-5b48-4d50-86b0-7761b6c6a85e] succeeded in 48.409216214997286s: 'finished.'
+[2023-07-12 20:38:24,340: INFO/MainProcess] Scaling down 3 processes.
+[2023-07-12 20:38:40,396: INFO/ForkPoolWorker-8]
+### section: 200104
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 20:38:40,398: INFO/ForkPoolWorker-8] Task news_scraper.naver_news.section_200104.scrape[cd8b4d06-87aa-46a6-97a9-e0185468d7dc] succeeded in 73.43361622499651s: 'finished.'
+[2023-07-12 20:38:40,967: INFO/ForkPoolWorker-7]
+### section: 200107
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 20:38:40,968: INFO/ForkPoolWorker-7] Task news_scraper.naver_news.section_200107.scrape[5a4d1c43-af69-49fc-9dcc-7a2e430db2d0] succeeded in 74.12243191900052s: 'finished.'
+[2023-07-12 20:38:48,708: INFO/ForkPoolWorker-3]
+### section: 200101
+### number of article urls: 20
+### number of article urls found in db before scraping: 11
+### number of articles scraped: 9
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 9
+[2023-07-12 20:38:48,709: INFO/ForkPoolWorker-3] Task news_scraper.naver_news.section_200101.scrape[eddda9e1-5ccf-4acf-9b25-001c3d2dbb19] succeeded in 82.39851412500138s: 'finished.'
+[2023-07-12 20:38:54,341: INFO/MainProcess] Scaling down 1 processes.
+[2023-07-12 20:38:57,877: INFO/ForkPoolWorker-2]
+### section: 200100
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 20:38:57,878: INFO/ForkPoolWorker-2] Task news_scraper.naver_news.section_200100.scrape[fc18444b-dfa9-497e-a307-ed3267ed926e] succeeded in 91.60952139200526s: 'finished.'
+[2023-07-12 20:39:00,009: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[02e7561b-f7fd-4ff2-ae3d-e7bc56fcd5d6] received
+[2023-07-12 20:39:00,031: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[e5a1a1bd-6212-418b-aa2f-38ff17f21ee6] received
+[2023-07-12 20:39:00,050: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[83f11b25-83d3-49f4-88a7-b429c5b96574] received
+[2023-07-12 20:39:00,067: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[09745905-df66-4c98-b089-cd54bc54f4fa] received
+[2023-07-12 20:39:00,067: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:39:00,133: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[90ce6181-e8c7-4cf6-9c1e-1548571c4fc9] received
+[2023-07-12 20:39:00,133: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:39:00,207: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[26ad6cbd-627c-42fe-b93b-ab41fc79786e] received
+[2023-07-12 20:39:00,208: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:39:00,283: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[a111a7d5-b48e-40c1-8259-fad505ea5727] received
+[2023-07-12 20:39:00,284: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:39:00,371: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[a3e97127-6fe9-42e9-a6bc-1956b24c651f] received
+[2023-07-12 20:39:13,268: INFO/ForkPoolWorker-9]
+### section: 200106
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 20:39:13,270: INFO/ForkPoolWorker-9] Task news_scraper.naver_news.section_200106.scrape[09745905-df66-4c98-b089-cd54bc54f4fa] succeeded in 12.796865525997418s: 'finished.'
+[2023-07-12 20:39:14,596: INFO/ForkPoolWorker-12]
+### section: 200103
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 20:39:14,598: INFO/ForkPoolWorker-12] Task news_scraper.naver_news.section_200103.scrape[a111a7d5-b48e-40c1-8259-fad505ea5727] succeeded in 13.838120956002967s: 'finished.'
+[2023-07-12 20:39:14,652: INFO/ForkPoolWorker-11]
+### section: 200105
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 20:39:14,654: INFO/ForkPoolWorker-11] Task news_scraper.naver_news.section_200105.scrape[26ad6cbd-627c-42fe-b93b-ab41fc79786e] succeeded in 14.055958737997571s: 'finished.'
+[2023-07-12 20:39:16,402: INFO/ForkPoolWorker-7]
+### section: 200104
+### number of article urls: 20
+### number of article urls found in db before scraping: 19
+### number of articles scraped: 1
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 1
+[2023-07-12 20:39:16,403: INFO/ForkPoolWorker-7] Task news_scraper.naver_news.section_200104.scrape[83f11b25-83d3-49f4-88a7-b429c5b96574] succeeded in 16.35183636799775s: 'finished.'
+[2023-07-12 20:39:23,919: INFO/ForkPoolWorker-1]
+### section: 200102
+### number of article urls: 20
+### number of article urls found in db before scraping: 0
+### number of articles scraped: 20
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 20
+[2023-07-12 20:39:23,926: INFO/ForkPoolWorker-1] Task news_scraper.naver_news.section_200102.scrape[71110c22-efda-4c3b-82aa-794e28f89fbe] succeeded in 117.60188804399513s: 'finished.'
+[2023-07-12 20:39:32,374: INFO/ForkPoolWorker-10]
+### section: 200107
+### number of article urls: 20
+### number of article urls found in db before scraping: 12
+### number of articles scraped: 8
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 8
+[2023-07-12 20:39:32,376: INFO/ForkPoolWorker-10] Task news_scraper.naver_news.section_200107.scrape[90ce6181-e8c7-4cf6-9c1e-1548571c4fc9] succeeded in 31.867861544000334s: 'finished.'
+[2023-07-12 20:39:38,437: INFO/ForkPoolWorker-8]
+### section: 200101
+### number of article urls: 20
+### number of article urls found in db before scraping: 17
+### number of articles scraped: 3
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 3
+[2023-07-12 20:39:38,437: INFO/ForkPoolWorker-8] Task news_scraper.naver_news.section_200101.scrape[e5a1a1bd-6212-418b-aa2f-38ff17f21ee6] succeeded in 38.40505433900398s: 'finished.'
+[2023-07-12 20:39:51,307: INFO/ForkPoolWorker-9]
+### section: 200100
+### number of article urls: 20
+### number of article urls found in db before scraping: 13
+### number of articles scraped: 7
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 7
+[2023-07-12 20:39:51,308: INFO/ForkPoolWorker-9] Task news_scraper.naver_news.section_200100.scrape[a3e97127-6fe9-42e9-a6bc-1956b24c651f] succeeded in 38.03279841600306s: 'finished.'
+[2023-07-12 20:39:54,344: INFO/MainProcess] Scaling down 4 processes.
+[2023-07-12 20:39:57,304: INFO/ForkPoolWorker-2]
+### section: 200102
+### number of article urls: 20
+### number of article urls found in db before scraping: 11
+### number of articles scraped: 9
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 5
+### number of new rows added to db: 4
+[2023-07-12 20:39:57,305: INFO/ForkPoolWorker-2] Task news_scraper.naver_news.section_200102.scrape[02e7561b-f7fd-4ff2-ae3d-e7bc56fcd5d6] succeeded in 57.29408490600326s: 'finished.'
+[2023-07-12 20:42:00,014: INFO/MainProcess] Task news_scraper.naver_news.section_200106.scrape[1d1a436a-3d9c-4f8b-b497-6e12431e9941] received
+[2023-07-12 20:42:00,032: INFO/MainProcess] Task news_scraper.naver_news.section_200103.scrape[4aef698a-2b98-4a3b-9c0e-ce094b1f6b8a] received
+[2023-07-12 20:42:00,048: INFO/MainProcess] Task news_scraper.naver_news.section_200102.scrape[33f553d5-a5fe-4dcf-906c-3802ca7bfb29] received
+[2023-07-12 20:42:00,066: INFO/MainProcess] Task news_scraper.naver_news.section_200105.scrape[470ad7a8-962a-4332-9a19-882a5b6d2c67] received
+[2023-07-12 20:42:00,083: INFO/MainProcess] Task news_scraper.naver_news.section_200107.scrape[118437df-8bde-421b-9d90-89991c6c9b2e] received
+[2023-07-12 20:42:00,084: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:42:00,153: INFO/MainProcess] Task news_scraper.naver_news.section_200100.scrape[fbe1bbc5-e4b8-45d5-acf0-a082411f6def] received
+[2023-07-12 20:42:00,153: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:42:00,218: INFO/MainProcess] Task news_scraper.naver_news.section_200104.scrape[e605e3bc-5e8b-48da-b48a-6503f2f77f9d] received
+[2023-07-12 20:42:00,219: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:42:00,283: INFO/MainProcess] Task news_scraper.naver_news.section_200101.scrape[38609e3b-b695-43e5-81de-6bde6cd82936] received
+[2023-07-12 20:42:00,284: INFO/MainProcess] Scaling up 1 processes.
+[2023-07-12 20:42:13,657: INFO/ForkPoolWorker-2]
+### section: 200103
+### number of article urls: 20
+### number of article urls found in db before scraping: 20
+### number of articles scraped: 0
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 0
+[2023-07-12 20:42:13,658: INFO/ForkPoolWorker-2] Task news_scraper.naver_news.section_200103.scrape[4aef698a-2b98-4a3b-9c0e-ce094b1f6b8a] succeeded in 13.623594340999261s: 'finished.'
+[2023-07-12 20:42:19,531: INFO/ForkPoolWorker-11]
+### section: 200106
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 20:42:19,532: INFO/ForkPoolWorker-11] Task news_scraper.naver_news.section_200106.scrape[1d1a436a-3d9c-4f8b-b497-6e12431e9941] succeeded in 19.51680137999938s: 'finished.'
+[2023-07-12 20:42:21,423: INFO/ForkPoolWorker-16]
+### section: 200101
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 20:42:21,425: INFO/ForkPoolWorker-16] Task news_scraper.naver_news.section_200101.scrape[38609e3b-b695-43e5-81de-6bde6cd82936] succeeded in 20.737528096004098s: 'finished.'
+[2023-07-12 20:42:21,452: INFO/ForkPoolWorker-10]
+### section: 200105
+### number of article urls: 20
+### number of article urls found in db before scraping: 18
+### number of articles scraped: 2
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 2
+[2023-07-12 20:42:21,453: INFO/ForkPoolWorker-10] Task news_scraper.naver_news.section_200105.scrape[470ad7a8-962a-4332-9a19-882a5b6d2c67] succeeded in 21.384983934993215s: 'finished.'
+[2023-07-12 20:42:34,473: INFO/ForkPoolWorker-15]
+### section: 200104
+### number of article urls: 20
+### number of article urls found in db before scraping: 8
+### number of articles scraped: 12
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 12
+[2023-07-12 20:42:34,474: INFO/ForkPoolWorker-15] Task news_scraper.naver_news.section_200104.scrape[e605e3bc-5e8b-48da-b48a-6503f2f77f9d] succeeded in 33.90712494299805s: 'finished.'
+[2023-07-12 20:42:43,700: INFO/ForkPoolWorker-14]
+### section: 200100
+### number of article urls: 20
+### number of article urls found in db before scraping: 15
+### number of articles scraped: 5
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 5
+[2023-07-12 20:42:43,701: INFO/ForkPoolWorker-14] Task news_scraper.naver_news.section_200100.scrape[fbe1bbc5-e4b8-45d5-acf0-a082411f6def] succeeded in 43.205719507997856s: 'finished.'
+[2023-07-12 20:42:49,159: INFO/ForkPoolWorker-12]
+### section: 200102
+### number of article urls: 20
+### number of article urls found in db before scraping: 12
+### number of articles scraped: 8
+### number of orm exceptions: 0
+### number of duplicate rows found updaing db: 0
+### number of new rows added to db: 8
+[2023-07-12 20:42:49,160: INFO/ForkPoolWorker-12] Task news_scraper.naver_news.section_200102.scrape[33f553d5-a5fe-4dcf-906c-3802ca7bfb29] succeeded in 49.10970382999949s: 'finished.'

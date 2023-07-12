@@ -1,5 +1,6 @@
-def get_info_list(article_urls, exist_count, num_new_articles, orm_exception_count, obj_creation_count):
+def get_info_list(section_key, article_urls, exist_count, num_new_articles, orm_exception_count, obj_creation_count):
     info_list = [
+        f"### section: {section_key}",
         f"### number of article urls: {len(article_urls)}",
         f"### number of article urls found in db before scraping: {exist_count}",
         f"### number of articles scraped: {num_new_articles}",

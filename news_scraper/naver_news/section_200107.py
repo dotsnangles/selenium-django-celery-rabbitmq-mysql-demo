@@ -63,7 +63,9 @@ def scrape():
             logger.warn(e)
             orm_exception_count += 1
 
-    info_list = get_info_list(article_urls, exist_count, len(articles_data), orm_exception_count, obj_creation_count)
+    info_list = get_info_list(
+        section_key, article_urls, exist_count, len(articles_data), orm_exception_count, obj_creation_count
+    )
 
     logger.info("\n" + "\n".join(info_list))
 
