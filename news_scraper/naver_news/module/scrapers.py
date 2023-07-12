@@ -3,8 +3,12 @@ import hashlib
 from selenium.webdriver.common.by import By
 
 
-def get_urls(driver, section_url, article_urls_xpath):
-    driver.get(section_url)
+def get_urls(driver, section_url, article_urls_xpath, logger):
+    try:
+        driver.get(section_url)
+    except Exception as e:
+        logger.warn(e)
+        return "section url unreachable"
 
     article_urls = driver.find_elements(by=By.XPATH, value=article_urls_xpath)
     article_urls = [article_title.get_attribute("href") for article_title in article_urls]
@@ -12,13 +16,17 @@ def get_urls(driver, section_url, article_urls_xpath):
     return article_urls
 
 
-def scrape_contents(model, driver, section_key, article_url, xpaths_dict):
+def scrape_contents(model, driver, section_key, article_url, xpaths_dict, logger):
     url_md5 = hashlib.md5(article_url.encode("utf-8")).hexdigest()
 
     if model.objects.filter(url_md5=url_md5).exists():
-        return None
+        return "exists"
 
-    driver.get(article_url)
+    try:
+        driver.get(article_url)
+    except Exception as e:
+        logger.warn(e)
+        return "article url unreachable"
 
     for title_xpath in xpaths_dict["title_xpaths"]:
         try:
