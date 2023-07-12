@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "news-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Jeonghyeon Park <dotsnangles@gmail.com>"]
+readme = "README.md"
+packages = [{include = "news_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.2"
+pandas = "^2.0.2"
+beautifulsoup4 = "^4.12.2"
+lxml = "^4.9.2"
+html5lib = "^1.1"
+selenium = "^4.10.0"
+jupyterlab = "^4.0.2"
+ipywidgets = "^8.0.6"
+mysqlclient = "^2.1.1"
+webdriver-manager = "^3.8.6"
+celery = "^5.3.1"
+django-celery-results = "^2.5.1"
+django-celery-beat = "^2.5.0"
+sqlalchemy = "^2.0.16"
+pymysql = "^1.0.3"
+python-dotenv = "^1.0.0"
+matplotlib = "^3.7.1"
+cryptography = "^41.0.1"
+boilerpy3 = "^1.0.6"
+feedparser = "^6.0.10"
+pytz = "^2023.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[tool.black]
+line-length = 128
