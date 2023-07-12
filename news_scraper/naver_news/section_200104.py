@@ -18,7 +18,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-section_key = "200105"
+section_key = "200104"
 
 section_url = f"https://news.naver.com/main/list.naver?mode=LSD&mid=sec&sid1={section_dict[section_key]}&listType=summary"
 

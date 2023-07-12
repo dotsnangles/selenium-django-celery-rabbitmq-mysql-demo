@@ -10,7 +10,7 @@ from celery import shared_task
 from manager.celery import app
 
 from news_scraper.models import NewsArticle
-from news_scraper.naver_news.module.mappers import section_dict, xpaths_dict, driver_version, driver_path
+from news_scraper.naver_news.module.mappers import section_dict, xpaths_dict_107 as xpaths_dict, driver_version, driver_path
 from news_scraper.naver_news.module.scrapers import get_urls, scrape_contents
 from news_scraper.naver_news.module.logging_utils import get_info_list
 
@@ -18,7 +18,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-section_key = "200105"
+section_key = "200107"
 
 section_url = f"https://news.naver.com/main/list.naver?mode=LSD&mid=sec&sid1={section_dict[section_key]}&listType=summary"
 

@@ -36,7 +36,7 @@ def scrape():
         options=options,
     )
 
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(5)
 
     article_urls = get_urls(driver, section_url, xpaths_dict["article_urls_xpath"])
 
