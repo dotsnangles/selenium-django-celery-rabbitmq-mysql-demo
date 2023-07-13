@@ -17,7 +17,8 @@ def get_urls(driver, section_url, xpaths_dict, logger):
     try:
         driver.get(section_url)
     except Exception as e:
-        logger.warn("\n".join([f"section url unreachable: {section_url}", e]))
+        logger.warn(f"section url unreachable: {section_url}")
+        logger.warn(e)
         return "section url unreachable"
 
     article_urls = driver.find_elements(by=By.XPATH, value=xpaths_dict["article_urls_xpath"])
@@ -43,7 +44,8 @@ def scrape_contents(model, driver, section_key, article_url, xpaths_dict, logger
     try:
         driver.get(article_url)
     except Exception as e:
-        logger.warn("\n".join([f"article url unreachable: {article_url}", e]))
+        logger.warn(f"article url unreachable: {article_url}")
+        logger.warn(e)
         return "article url unreachable"
 
     for title_xpath in xpaths_dict["title_xpaths"]:
