@@ -3,15 +3,25 @@ import hashlib
 from selenium.webdriver.common.by import By
 
 
-def get_urls(driver, section_url, article_urls_xpath, logger):
+def get_urls(driver, section_url, xpaths_dict, logger):
     try:
         driver.get(section_url)
     except Exception as e:
         logger.warn(e)
         return "section url unreachable"
 
-    article_urls = driver.find_elements(by=By.XPATH, value=article_urls_xpath)
+    article_urls = driver.find_elements(by=By.XPATH, value=xpaths_dict["article_urls_xpath"])
     article_urls = [article_title.get_attribute("href") for article_title in article_urls]
+
+    try:
+        page_2_button = driver.find_element(by=By.XPATH, value=xpaths_dict["page_2_button_xpath"])
+        page_2_button.click()
+        page_2_article_urls = driver.find_elements(by=By.XPATH, value=xpaths_dict["article_urls_xpath"])
+        page_2_article_urls = [article_title.get_attribute("href") for article_title in page_2_article_urls]
+        article_urls.extend(page_2_article_urls)
+    except Exception as e:
+        pass
+
     article_urls = list(set(article_urls))
     return article_urls
 

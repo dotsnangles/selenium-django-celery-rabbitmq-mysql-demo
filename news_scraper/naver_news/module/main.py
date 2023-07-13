@@ -30,7 +30,7 @@ def get_driver():
 
 
 def main_process(driver, logger, section_key, section_url, xpaths_dict):
-    article_urls = get_urls(driver, section_url, xpaths_dict["article_urls_xpath"], logger)
+    article_urls = get_urls(driver, section_url, xpaths_dict, logger)
     if article_urls == "section url unreachable":
         return False
 

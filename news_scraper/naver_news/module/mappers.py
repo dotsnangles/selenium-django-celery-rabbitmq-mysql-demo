@@ -13,6 +13,7 @@ section_dict = {
 }
 
 xpaths_dict = dict(
+    page_2_button_xpath='//*[@id="main_content"]/div[3]/a[1]',
     article_urls_xpath='//*[@id="main_content"]/div[2]/ul/li/dl/dt/a',
     title_xpaths=[
         '//*[@id="title_area"]/span',
@@ -41,6 +42,7 @@ xpaths_dict = dict(
 )
 
 xpaths_dict_106 = dict(
+    page_2_button_xpath='//*[@id="main_content"]/div[3]/a[1]',
     article_urls_xpath='//*[@id="main_content"]/div[2]/ul/li/dl/dt/a',
     title_xpaths=[
         '//*[@id="content"]/div[1]/div/h2',
@@ -69,6 +71,7 @@ xpaths_dict_106 = dict(
 )
 
 xpaths_dict_107 = dict(
+    page_2_button_xpath='//*[@id="main_content"]/div[3]/a[1]',
     article_urls_xpath='//*[@id="main_content"]/div[2]/ul/li/dl/dt/a',
     title_xpaths=[
         '//*[@id="content"]/div/div[1]/div/div[1]/h4',
