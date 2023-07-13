@@ -88,6 +88,8 @@ DATABASES = {
         "PASSWORD": "jake",
         "HOST": "127.0.0.1",
         "PORT": "3306",
+        "CONN_MAX_AGE": 60,
+        "CONN_HEALTH_CHECKS": True,
         "OPTIONS": {"charset": "utf8mb4"},
     },
     "news_scraper": {
@@ -97,6 +99,8 @@ DATABASES = {
         "PASSWORD": "jake",
         "HOST": "127.0.0.1",
         "PORT": "3306",
+        "CONN_MAX_AGE": 60,
+        "CONN_HEALTH_CHECKS": True,
         "OPTIONS": {"charset": "utf8mb4"},
     },
 }
