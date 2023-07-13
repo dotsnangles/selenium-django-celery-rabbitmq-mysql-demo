@@ -40,9 +40,10 @@ python manage.py runserver
 ```
 
 6. Open up another new terminal and run the following command to ready the task workers:
+    - Make sure to adjust the auto-scale settings to avoid resource problems.
 
 ```
-celery -A manager worker -l INFO --autoscale=4,8 --without-heartbeat --without-gossip --without-mingle
+celery -A manager worker -l INFO --autoscale=2,4 --without-heartbeat --without-gossip --without-mingle
 ```
 
 7. Open up another new terminal and run the following command to cue the task workers for the schedule:
