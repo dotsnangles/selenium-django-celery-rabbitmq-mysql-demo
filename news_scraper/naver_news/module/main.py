@@ -10,6 +10,7 @@ from news_scraper.models import NewsArticle
 from news_scraper.naver_news.module.mappers import driver_version, driver_path
 from news_scraper.naver_news.module.scrapers import get_urls, scrape_contents
 from news_scraper.naver_news.module.logging_utils import get_info_list
+from news_scraper.naver_news.module.scraping_utils import get_yesterday
 
 
 def get_driver():
@@ -30,9 +31,16 @@ def get_driver():
 
 
 def main_process(driver, logger, section_key, section_url, xpaths_dict):
-    article_urls = get_urls(driver, section_url, xpaths_dict, logger)
+    article_urls = get_urls(driver, section_url, xpaths_dict, logger, 4)
     if article_urls == "section url unreachable":
         return False
+
+    yesterday, yesterday_needed = get_yesterday()
+    if yesterday_needed:
+        yesterday_section_url = section_url + f"&date={yesterday}"
+        yesterday_article_urls = get_urls(driver, yesterday_section_url, xpaths_dict, logger, 4)
+        if yesterday_article_urls != "section url unreachable":
+            article_urls.extend(yesterday_article_urls)
 
     articles_data = []
 

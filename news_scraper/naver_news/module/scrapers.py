@@ -13,7 +13,7 @@ def get_urls_from_next_page(driver, xpaths_dict, page_idx):
     return next_page_article_urls
 
 
-def get_urls(driver, section_url, xpaths_dict, logger):
+def get_urls(driver, section_url, xpaths_dict, logger, num_next_pages):
     try:
         driver.get(section_url)
     except Exception as e:
@@ -24,14 +24,15 @@ def get_urls(driver, section_url, xpaths_dict, logger):
     article_urls = driver.find_elements(by=By.XPATH, value=xpaths_dict["article_urls_xpath"])
     article_urls = [article_title.get_attribute("href") for article_title in article_urls]
 
-    for page_idx in range(4):
+    for page_idx in range(num_next_pages):
         try:
-            page_2_article_urls = get_urls_from_next_page(driver, xpaths_dict, page_idx)
-            article_urls.extend(page_2_article_urls)
+            next_page_article_urls = get_urls_from_next_page(driver, xpaths_dict, page_idx)
+            article_urls.extend(next_page_article_urls)
         except Exception as e:
             continue
 
     article_urls = list(set(article_urls))
+
     return article_urls
 
 
