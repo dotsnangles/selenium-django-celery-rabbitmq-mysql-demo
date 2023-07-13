@@ -3,6 +3,16 @@ import hashlib
 from selenium.webdriver.common.by import By
 
 
+def get_urls_from_next_page(driver, xpaths_dict, page_idx):
+    next_page_button_xpath = xpaths_dict["page_2_button_xpath"].replace("a[1]", f"a[{page_idx + 1}]")
+    next_page_button = driver.find_element(by=By.XPATH, value=next_page_button_xpath)
+    next_page_button.click()
+    next_page_article_urls = driver.find_elements(by=By.XPATH, value=xpaths_dict["article_urls_xpath"])
+    next_page_article_urls = [article_title.get_attribute("href") for article_title in next_page_article_urls]
+
+    return next_page_article_urls
+
+
 def get_urls(driver, section_url, xpaths_dict, logger):
     try:
         driver.get(section_url)
@@ -13,14 +23,12 @@ def get_urls(driver, section_url, xpaths_dict, logger):
     article_urls = driver.find_elements(by=By.XPATH, value=xpaths_dict["article_urls_xpath"])
     article_urls = [article_title.get_attribute("href") for article_title in article_urls]
 
-    try:
-        page_2_button = driver.find_element(by=By.XPATH, value=xpaths_dict["page_2_button_xpath"])
-        page_2_button.click()
-        page_2_article_urls = driver.find_elements(by=By.XPATH, value=xpaths_dict["article_urls_xpath"])
-        page_2_article_urls = [article_title.get_attribute("href") for article_title in page_2_article_urls]
-        article_urls.extend(page_2_article_urls)
-    except Exception as e:
-        pass
+    for page_idx in range(4):
+        try:
+            page_2_article_urls = get_urls_from_next_page(driver, xpaths_dict, page_idx)
+            article_urls.extend(page_2_article_urls)
+        except Exception as e:
+            continue
 
     article_urls = list(set(article_urls))
     return article_urls
