@@ -16,22 +16,23 @@ def get_urls_from_next_page(driver, xpaths_dict, page_idx):
 def get_urls(driver, section_url, xpaths_dict, logger, num_next_pages):
     try:
         driver.get(section_url)
+        article_urls = driver.find_elements(by=By.XPATH, value=xpaths_dict["article_urls_xpath"])
+        article_urls = [article_title.get_attribute("href") for article_title in article_urls]
     except Exception as e:
-        logger.warn(f"section url unreachable: {section_url}")
+        logger.warn(f"failed to scrape article urls from section url: {section_url}")
         logger.warn(e)
-        return "section url unreachable"
-
-    article_urls = driver.find_elements(by=By.XPATH, value=xpaths_dict["article_urls_xpath"])
-    article_urls = [article_title.get_attribute("href") for article_title in article_urls]
+        return "failed to scrape article urls from section url"
 
     for page_idx in range(num_next_pages):
         try:
             next_page_article_urls = get_urls_from_next_page(driver, xpaths_dict, page_idx)
             article_urls.extend(next_page_article_urls)
         except Exception as e:
+            logger.warn(f"failed to scrape article urls from page {page_idx + 1} of section url: {section_url}")
+            logger.warn(e)
             continue
 
-    article_urls = list(set(article_urls))
+    article_urls = list(dict.fromkeys(article_urls))
 
     return article_urls
 

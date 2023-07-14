@@ -32,14 +32,14 @@ def get_driver():
 
 def main_process(driver, logger, section_key, section_url, xpaths_dict):
     article_urls = get_urls(driver, section_url, xpaths_dict, logger, 4)
-    if article_urls == "section url unreachable":
+    if article_urls == "failed to scrape article urls from section url":
         return False
 
     yesterday, yesterday_needed = get_yesterday()
     if yesterday_needed:
         yesterday_section_url = section_url + f"&date={yesterday}"
         yesterday_article_urls = get_urls(driver, yesterday_section_url, xpaths_dict, logger, 4)
-        if yesterday_article_urls != "section url unreachable":
+        if yesterday_article_urls != "failed to scrape article urls from section url":
             article_urls.extend(yesterday_article_urls)
 
     articles_data = []
